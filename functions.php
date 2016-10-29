@@ -13,7 +13,7 @@
    wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
 
  }
- add_action( 'wp_enqueue_scripts', 'wpt_theme_styles' );
+ add_action( 'wp_enqueue_scripts', 'em_theme_styles' );
 
 
 
@@ -26,7 +26,7 @@ function em_theme_js() {
 
   // order is important
 }
-add_action( 'wp_enqueue_scripts', 'wpt_theme_js' );
+add_action( 'wp_enqueue_scripts', 'em_theme_js' );
 // we're saying, wordpress,when its time for you to enqueue these scripts,enqueue them from here
 
 
