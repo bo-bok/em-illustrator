@@ -27,7 +27,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 
-@font-face {
+/*@font-face {
     font-family: "Abadi MT Condensed Light";
     src: url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.eot");
     src: url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.eot?#iefix") format("embedded-opentype"),
@@ -35,7 +35,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.svg#Abadi MT Condensed Light") format("svg");
-}
+}*/
 
 
 /* MOBILE FIRST */

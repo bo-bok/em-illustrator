@@ -4,3 +4,15 @@
   - define functions used in several template files of your theme.
   - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
  -->
+
+<?php
+ // this function loads the style (css) files
+ function em_theme_styles() {
+   wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css';
+   wp_enqueue_style( 'AdabiCondensedLight_font', '//db.onlinewebfonts.com/c/15898c1b4ff12cded84f74a011b62a91?family=Abadi+MT+Condensed+Light' );
+   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
+
+ }
+ add_action( 'wp_enqueue_scripts', 'wpt_theme_styles' );
+
+?>
