@@ -15,4 +15,24 @@
  }
  add_action( 'wp_enqueue_scripts', 'wpt_theme_styles' );
 
+
+
+
+// this function loads the scripts (js)
+function em_theme_js() {
+  wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true) ;
+  // wp_enqueue_script( 'modernizr_js', get_template_directory_uri() . '/js/modernizr.js', '', '', false) ;
+  // wp_enqueue_script( 'name_here', get_template_directory_uri() . '/path_to_file', array('of', 'dependencies'), 'set_version',  appear_in_footer_BOOLEAN);
+
+  // order is important
+}
+add_action( 'wp_enqueue_scripts', 'wpt_theme_js' );
+// we're saying, wordpress,when its time for you to enqueue these scripts,enqueue them from here
+
+
+
+
+
+
+// END OF PHP BLOCK
 ?>
