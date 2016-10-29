@@ -1,15 +1,16 @@
-<!-- this file is for:
-  - enqueue theme stylesheets and scripts. see wp_enqueue_scripts.
-  - enable theme features such as sidebars, navigation menus, post thumbnails, post formats, custom headers, custom backgrounds and others.
-  - define functions used in several template files of your theme.
-  - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
- -->
-
 <?php
+
+// this file is for:
+//   - enqueue theme stylesheets and scripts. see wp_enqueue_scripts.
+//   - enable theme features such as sidebars, navigation menus, post thumbnails, post formats, custom headers, custom backgrounds and others.
+//   - define functions used in several template files of your theme.
+//   - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
+
+
  // this function loads the style (css) files
  function em_theme_styles() {
-   wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css';
-   wp_enqueue_style( 'AdabiCondensedLight_font', '//db.onlinewebfonts.com/c/15898c1b4ff12cded84f74a011b62a91?family=Abadi+MT+Condensed+Light' );
+   wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css');
+  //  wp_enqueue_style( 'AdabiCondensedLight_font', '//db.onlinewebfonts.com/c/15898c1b4ff12cded84f74a011b62a91?family=Abadi+MT+Condensed+Light' );
    wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
 
  }
