@@ -9,7 +9,7 @@
   <?php wp_head(); ?>
   <!-- tells wp that we're about to be at end of head tag
         - if there's anything plugin or theme wants to output to this area, this is where is should be done
-        - e.g. your scripts!-->
+        - e.g. your scripts!  -->
 </head>
 
 
