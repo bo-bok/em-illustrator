@@ -3,13 +3,15 @@
 <html>
 
 <head>
-  <title>EM static About page</title>
+  <title><?php wp_title(); ?></title>
 </head>
+
 
 <body>
   <div class="page-container">
 
     <!--  site header -->
+  <header>
     <div class="header row">
         <div class="logo-container col-12">
           <a href="em-static-home.html"><img src="assets/graphics/em-logo.svg" /></a>
@@ -50,4 +52,5 @@
         </div>
       </div>
 
-    </div> 
+    </div>
+  </header>
