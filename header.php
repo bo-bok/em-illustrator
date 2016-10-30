@@ -28,12 +28,23 @@
     <div class="nav-bar row">
 
       <!-- navigation -->
-      <div class="nav col-5">
+
+      <?php
+        $defaults = array(
+          'container' => false,
+          'theme_location' => 'primary-menu', //tells wp where that menu lives
+          'menu_class' => 'nav col-5'
+        );
+
+        wp_nav_menu( $defaults );
+      ?>
+
+      <!-- <div class="nav col-5">
         <ul>
           <li><a href="#em-static-about.html">About</a></li>
           <li><a href="#em-static-shop.html">Shop</a></li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- social media links -->
       <div class="social-links col-7">
