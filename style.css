@@ -75,11 +75,27 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* LOGO */
 .logo-container {
   text-align: center;
+  /*padding-left: 30px !important;*/
+/*background-image: url(assets/graphics/em-logo.svg);*/
+/*background-position: left;*/
+/*background-repeat: no-repeat;*/
+}
+
+.logo-img a {
+
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  /*background-image: url(assets/graphics/em-logo.svg);
+  background-repeat: no-repeat;*/
+
 }
 
 .logo-img {
-  display: inline-block;
-  width: 80%;
+  /*display: inline-block;*/
+  /*width: 100%;*/
+  background-image: url(assets/graphics/em-logo.svg);
+  background-repeat: no-repeat;
 }
 
 
@@ -288,3 +304,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .table-cell {
   border: 1px solid black;
 }
+
+
+
+
+/* SPECIFICs */
+/*#menu-item-56 {
+  overflow: hidden;
+  text-indent: -999px;
+}*/

@@ -20,14 +20,25 @@
   <header>
     <div class="header row">
         <div class="logo-container col-12">
-          <a href="em-static-home.html"><img src="assets/graphics/em-logo.svg" /></a>
+          <!-- <a href="em-static-home.html"><img src="assets/graphics/em-logo.svg" /></a> -->
+
+          <?php
+            $defaults = array(
+              'container' => false,
+              'theme_location' => 'site-header-logo-link', //tells wp where that menu lives
+              'menu_class' => 'logo-img col-12'
+            );
+
+            wp_nav_menu( $defaults );
+          ?>
+
         </div>
     </div>
 
     <!-- navigation & social links-->
     <div class="nav-bar row">
 
-      <!-- navigation -->
+      <!-- Primary navigation -->
 
       <?php
         $defaults = array(
