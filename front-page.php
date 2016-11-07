@@ -5,7 +5,7 @@
 
 
 <!-- gallery grid system  -->
-<!-- <div class="row">
+<div class="row">
   <div class="col-12 col-bkg">
 
     <div class="table-container">
@@ -31,10 +31,10 @@
     </div>
 
   </div>
-</div> -->
+</div>
 
 <!-- gallery grid system  -->
-<div class="row">
+<!-- <div class="row">
   <div class="col-12 col-bkg">
 
     <div class="table-container">
@@ -60,6 +60,6 @@
     </div>
 
   </div>
-</div>
+</div> -->
 
 <?php get_footer(); ?>
