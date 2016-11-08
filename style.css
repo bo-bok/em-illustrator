@@ -102,7 +102,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* SITE NAVIGATION */
 .nav-bar {
-  padding: 10px;
+  padding: 15px;
 }
 
 .nav {
@@ -126,7 +126,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .nav a {
   text-decoration: none;
   display: block;
-  padding: 6px 20px;
+  padding-top: 6px
+  padding-right: 20px;
+  padding-left: 4px;
 }
 
 
