@@ -260,8 +260,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
   }
 
   /* HOMEPAGE GALLERY GRID */
-   .table-container {
+
+  .table-container-1 {
+    margin: 0 -20px;
+  }
+  
+   .table {
     display: table;
+    table-layout: fixed;
     width: 100%;
   }
 
@@ -274,17 +280,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
     display: table-cell;
   }
 
-  .right-align {
+  /*.right-align {
    text-align: right;
   }
 
   .left-align {
    text-align: left;
-  }
+  }*/
 
-  .homepage-image {
-    width: 90%;
-  }
+  /*.homepage-image {
+    width: 100%;
+  }*/
 
 
   /* ABOUT PAGE */
@@ -329,7 +335,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* DEV DIV STYLES */
 /* ================================= *?
 /* WHILST IN DEV */
-.page-container {
+/*.page-container {
   border: 4px dotted grey;
   background-color: #eeeeee;
 }
@@ -357,4 +363,4 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .table-cell {
   border: 1px solid black;
-}
+}*/
