@@ -58,19 +58,19 @@
           <div class="social-links col-7">
 
               <a href="https://twitter.com/emilyscartoons" title="keywords-here" target="blank">
-                <img class="soc-link-icon" src="assets/graphics/twitter-icon.svg" />
+                <img class="soc-link-icon" src="<?= get_template_directory_uri()?>/assets/graphics/twitter-icon.svg" />
               </a>
 
               <a href="https://en-gb.facebook.com/backgroundslytherin/" title="keywords-here" target="blank">
-                <img class="soc-link-icon" src="assets/graphics/fb-icon.svg" />
+                <img class="soc-link-icon" src="<?= get_template_directory_uri()?>/assets/graphics/fb-icon.svg" />
               </a>
 
               <a href="http://emilyscartoons.tumblr.com/" title="keywords-here" target="blank">
-                <img class="soc-link-icon" src="assets/graphics/tumblr-icon.svg" target="blank" />
+                <img class="soc-link-icon" src="<?= get_template_directory_uri()?>/assets/graphics/tumblr-icon.svg" target="blank" />
               </a>
 
               <a href="https://www.instagram.com/emilyscartoons/" title="keywords-here" target="blank">
-                <img class="soc-link-icon" src="assets/graphics/ig-icon.svg" />
+                <img class="soc-link-icon" src="<?= get_template_directory_uri()?>/assets/graphics/ig-icon.svg" />
               </a>
 
           </div>
