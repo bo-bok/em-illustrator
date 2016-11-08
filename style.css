@@ -23,10 +23,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 
+/* ========================================================================= */
+/* This stylesheet employs mobile first approach */
+/* ========================================================================= */
 
 
-
-
+/* imports font */
+/* ========================================================================= */
 /*@font-face {
     font-family: "Abadi MT Condensed Light";
     src: url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.eot");
@@ -38,19 +41,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }*/
 
 
-/* MOBILE FIRST */
+/* PAGE STRUCTURE */
+/* initial structure is one column layout spanning 100% width */
+/* ========================================================================= */
 
-
-
-/* RESPONSIVE GRID */
-
+/* clearfix */
 .row::after {
     content: "";
     clear: both;
     display: block;
 }
-/* my clearfix class */
 
+/* sets all columns to width: 100% */
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -58,12 +60,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
     width: 100%;
 }
 
-
-/* PAGE LAYOUT */
 * {
   color: #000;
   box-sizing: border-box;
-  /*background-color: #fff;*/
 }
 
 .page-container {
@@ -72,13 +71,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 
+/* HEADER */
+/* ========================================================================= */
+
 /* LOGO */
 .logo-container {
   text-align: center;
   /*padding-left: 30px !important;*/
-/*background-image: url(assets/graphics/em-logo.svg);*/
-/*background-position: left;*/
-/*background-repeat: no-repeat;*/
+  /*background-image: url(assets/graphics/em-logo.svg);*/
+  /*background-position: left;*/
+  /*background-repeat: no-repeat;*/
 }
 
 .logo-img {
@@ -89,7 +91,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .logo-img a {
-
   display: inline-block;
   height: 100px;
   width: 100px;
@@ -98,9 +99,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 
-
-
-/* SITE NAVIGATION */
+/* SITE NAV */
 .nav-bar {
   padding: 15px;
 }
@@ -118,9 +117,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-size: 48px;
   padding-top: 10px;
   padding-bottom: 20px;
-  float:;                                                               /* NEED RESPONSIVE ADAPTATION (float: left;) */
-  width: 100%;             /* NEED RESPONSIVE ADAPTATION (reduce/ delete width so buttons stack next to each other ) */
-
+  width: 100%;
 }
 
 .nav a {
@@ -139,7 +136,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .soc-link-icon {
-  float:;                                                          /* NEED RESPONSIVE ADAPTATION (float: right;) */
   height: 48px;
   width: 48px;
   margin-left: 10px;
@@ -148,6 +144,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 /* FOOTER */
+/* ========================================================================= */
+
 .footer {
   border-top: 1px solid #eee;
 }
@@ -156,19 +154,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
   text-align: center;
 }
 
-/* IMAGE LINKS [in table] */
+/* HOME PAGE */
+/* ========================================================================= */
+
+/* image links [in table] */
 .homepage-image {
   width: 100%;
 }
 
 
-/* ========================================== */
-
 /* ABOUT PAGE */
-
-.about-portrait-image {
-  width: 100%;
-}
+/* ========================================================================= */
 
 .left-box-about-image {
   width: 90%;
@@ -176,8 +172,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin: auto;
   }
 
+.about-portrait-image {
+  width: 100%;
+}
+
 .right-box-about-text {
-    /*padding-top: 4px;*/
     padding-top: 20px;
     width: 80%;
     vertical-align: top;
@@ -186,29 +185,27 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 
+/* MEDIA QUERIES */
+/* ========================================================================= */
 
-
-/* RESPONSIVE MEDIA QUERIES*/
 @media(min-width: 560px){
 
-  /* MEDIA QUERIE UPDATES*/
   .nav li {
     font-size: 32px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
 
-  /*.footer-text {
-    text-align: left;
-  }*/
-
-
+/* end of 560px media query */
 }
 
 
 @media (min-width: 660px) {
 
   /* RESPONSIVE GRID */
+  /* layout switches from 1-column to 12-column responsive grid */
+  /* ================================================================= */
+
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -223,13 +220,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
   .col-12 {width: 100%;}
 
 
+  /* PAGE STRUCTURE */
+  /* ================================================================= */
 
-  /* PAGE LAYOUT */
   .page-container {
     width: 80%;
   }
 
-  /* LOGO */
+  /* HEADER */
+  /* ================================================================= */
 
   /* LOGO */
   .logo-img {
@@ -237,7 +236,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     width: 100%;
   }
 
-  /* SITE NAVIGATION */
+
+  /* SITE NAV */
   .nav {
     text-align: left;
   }
@@ -248,8 +248,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
   .nav a {
     float: left;
-    width: 50%;             /* NEED RESPONSIVE ADAPTATION (reduce/ delete width so buttons stack next to each other )*/
+    width: 50%;
   }
+
 
   /* SOCIAL MEDIA ICONS/LINKS */
 
@@ -261,8 +262,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
     float: right;
   }
 
-  /* HOMEPAGE GALLERY GRID */
 
+  /* HOME PAGE */
+  /* ================================================================= */
+
+  /* GALLERY GRID */
+  /* layout built with css table*/
   .table-container {
     margin: 0 -20px;
   }
@@ -282,25 +287,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
     display: table-cell;
   }
 
-  /*.right-align {
-   text-align: right;
-  }
-
-  .left-align {
-   text-align: left;
-  }*/
-
-  /*.homepage-image {
-    width: 100%;
-  }*/
-
 
   /* ABOUT PAGE */
-
-
-  .about-portrait-image {
-    width: 100%;
-  }
+  /* ================================================================= */
 
   .left-box-about-image {
     width: 40%;
@@ -309,34 +298,30 @@ Use it to make something cool, have fun, and share what you've learned with othe
     }
 
   .right-box-about-text {
-      padding-top: 0px;
-      /*padding-top: 20px;*/
-      width: 60%;
-      vertical-align: top;
-      text-align: justify;
-
-
+    padding-top: 0px;
+    width: 60%;
+    vertical-align: top;
+    text-align: justify;
   }
 
   .about-text {
-      width: 90%;
+    width: 90%;
   }
 
 }
 
 
 
-/* SPECIFICs */
+/* SPECIFICS */
 /*#menu-item-56 {
   overflow: hidden;
   text-indent: -999px;
 }*/
 
 
-
+/* ================================================================= */
 /* DEV DIV STYLES */
-/* ================================= *?
-/* WHILST IN DEV */
+/* ================================================================= */
 /*.page-container {
   border: 4px dotted grey;
   background-color: #eeeeee;
