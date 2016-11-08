@@ -261,10 +261,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
   /* HOMEPAGE GALLERY GRID */
 
-  .table-container-1 {
+  .table-container {
     margin: 0 -20px;
   }
-  
+
    .table {
     display: table;
     table-layout: fixed;

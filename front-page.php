@@ -1,12 +1,12 @@
 <?php
-// controls the home page 
+// controls the home page
 get_header(); ?>
 
 <!-- gallery grid system  -->
 <div class="row">
   <div class="col-12 col-bkg">
 
-    <div class="table-container-1">
+    <div class="table-container">
     <div class="table">
 
       <div class="table-row">
