@@ -7,7 +7,7 @@
   //  - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
 
 
-// these functions add theme support for x
+// these functions add theme support for following:
 add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
 
@@ -35,15 +35,11 @@ add_action( 'init', 'register_theme_menus' );
  add_action( 'wp_enqueue_scripts', 'em_theme_styles' );
 
 
-
-
-// this function loads the scripts (js)
+// this function loads the scripts (js), order is important
 function em_theme_js() {
   wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true) ;
   // wp_enqueue_script( 'modernizr_js', get_template_directory_uri() . '/js/modernizr.js', '', '', false) ;
   // wp_enqueue_script( 'name_here', get_template_directory_uri() . '/path_to_file', array('of', 'dependencies'), 'set_version',  appear_in_footer_BOOLEAN);
-
-  // order is important
 }
 add_action( 'wp_enqueue_scripts', 'em_theme_js' );
 // we're saying, wordpress,when its time for you to enqueue these scripts,enqueue them from here
