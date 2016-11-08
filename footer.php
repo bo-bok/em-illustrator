@@ -1,17 +1,22 @@
-<!--  PAGE FOOTER
-  ============================================================= -->
-  <footer class="row footer">
-    <div class="col-12 footer-text">
-      Copyright Emily McGovern <?php echo date('Y'); ?>.
+  <!--  FOOTER -->
+  <!-- ================================================================ -->
+
+      <footer class="row footer">
+        <div class="col-12 footer-text">
+          Copyright Emily McGovern <?php echo date('Y'); ?>.
+        </div>
+
+      </footer>
+
     </div>
 
-  </footer>
+    <?php wp_footer(); ?>
+    <!-- tells wp you can output any scripts here -->
 
-</div>
 
-<?php wp_footer(); ?>
-<!-- you can output any scripts here, e.g. js -->
+  <!-- CLOSE -->
+  <!-- ================================================================ -->
 
-</body>
+  </body>
 
 </html>
