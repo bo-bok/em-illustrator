@@ -1,5 +1,7 @@
 <?php
-// the page template. used when an individual page is queried.
+
+// the page.php template is used when an individual page is queried.
+
 get_header(); ?>
 
 <section class="row">

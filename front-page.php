@@ -1,5 +1,7 @@
 <?php
-// controls the home page
+
+// front-page.php template controls the home page
+
 get_header(); ?>
 
 <!-- gallery grid system  -->
@@ -32,7 +34,7 @@ get_header(); ?>
               <img class="homepage-image"
               src="<?= get_template_directory_uri()?>/assets/homepage-images/3-cards-comics-600x600px.png" /></a>
           </div>
-          
+
           <div class="table-cell">
             <a href="">
               <img class="homepage-image"

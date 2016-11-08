@@ -1,5 +1,7 @@
 <?php
-// controls the categories page
+
+// category.php template controls the categories page
+
 get_header(); ?>
 
 
