@@ -24,9 +24,10 @@ get_header(); ?>
           <a href=""><img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/3-cards-comics-600x600px.png" /></a>
         </div>
         <div class="table-cell">
-          <a href=""><img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/3-cards-comics-600x600px.png" /></a>
+          <a href=""><img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/4-illustrations-600x600px.png" /></a>
         </div>
       </div>
+
 
     </div>
   </div>
