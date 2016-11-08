@@ -40,7 +40,7 @@ get_header(); ?>
             <div class="table-row">
 
               <div class="table-cell left-box-about-image">
-                <img class="about-portrait-image" src="assets/aboutpage-images/em-self-portrait.png" />
+                <img class="about-portrait-image" src="<?= get_template_directory_uri()?>/assets/aboutpage-images/em-self-portrait.png" />
               </div>
 
               <div class="table-cell right-box-about-text">
