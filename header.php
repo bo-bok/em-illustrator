@@ -17,67 +17,68 @@
   <body <?php body_class(); ?>>
     <div class="page-container">
 
-      <!--  SITE HEADER -->
-      <!-- ================================================================ -->
-      <header>
-        <div class="header row">
-            <div class="logo-container col-12">
-              <!-- <a href="em-static-home.html"><img src="assets/graphics/em-logo.svg" /></a> -->
+
+    <!--  SITE HEADER -->
+    <!-- ================================================================ -->
+    <header>
+      <div class="header row">
+          <div class="logo-container col-12">
+            <!-- <a href="em-static-home.html"><img src="assets/graphics/em-logo.svg" /></a> -->
 
 
-              <?php
-                $defaults = array(
-                  'container' => false,
-                  'theme_location' => 'site-header-logo-link', //tells wp where that menu lives
-                  'menu_class' => 'logo-img col-12'
-                );
+            <?php
+              $defaults = array(
+                'container' => false,
+                'theme_location' => 'site-header-logo-link', //tells wp where that menu lives
+                'menu_class' => 'logo-img col-12'
+              );
 
-                wp_nav_menu( $defaults );
-              ?>
-
-            </div>
-        </div>
-
-
-        <!-- navigation & social links row-->
-        <div class="nav-bar row">
-
-          <!-- Displays primary navigation -->
-          <?php
-            $defaults = array(
-              'container' => false,
-              'theme_location' => 'primary-menu', //tells wp where menu lives
-              'menu_class' => 'nav col-5'
-            );
-
-            wp_nav_menu( $defaults );
-          ?>
-
-
-          <!-- social media links -->
-          <div class="social-links col-7">
-
-            <a href="https://twitter.com/emilyscartoons" target="blank"
-              title="keywords-here">
-                <img class="soc-link-icon"
-                  src="<?= get_template_directory_uri() ?>/assets/graphics/twitter-icon.svg" /></a>
-
-            <a href="https://en-gb.facebook.com/backgroundslytherin/" target="blank"
-              title="keywords-here">
-                <img class="soc-link-icon"
-                  src="<?= get_template_directory_uri() ?>/assets/graphics/fb-icon.svg" /></a>
-
-            <a href="http://emilyscartoons.tumblr.com/" target="blank"
-              title="keywords-here">
-                <img class="soc-link-icon"
-                src="<?= get_template_directory_uri() ?>/assets/graphics/tumblr-icon.svg" /></a>
-
-            <a href="https://www.instagram.com/emilyscartoons/" target="blank"
-             title="keywords-here">
-              <img class="soc-link-icon"
-                src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.svg" /></a>
+              wp_nav_menu( $defaults );
+            ?>
 
           </div>
+      </div>
+
+
+      <!-- navigation & social links row-->
+      <div class="nav-bar row">
+
+        <!-- Displays primary navigation -->
+        <?php
+          $defaults = array(
+            'container' => false,
+            'theme_location' => 'primary-menu', //tells wp where menu lives
+            'menu_class' => 'nav col-5'
+          );
+
+          wp_nav_menu( $defaults );
+        ?>
+
+
+        <!-- social media links -->
+        <div class="social-links col-7">
+
+          <a href="https://twitter.com/emilyscartoons" target="blank"
+            title="keywords-here">
+              <img class="soc-link-icon"
+                src="<?= get_template_directory_uri() ?>/assets/graphics/twitter-icon.svg" /></a>
+
+          <a href="https://en-gb.facebook.com/backgroundslytherin/" target="blank"
+            title="keywords-here">
+              <img class="soc-link-icon"
+                src="<?= get_template_directory_uri() ?>/assets/graphics/fb-icon.svg" /></a>
+
+          <a href="http://emilyscartoons.tumblr.com/" target="blank"
+            title="keywords-here">
+              <img class="soc-link-icon"
+              src="<?= get_template_directory_uri() ?>/assets/graphics/tumblr-icon.svg" /></a>
+
+          <a href="https://www.instagram.com/emilyscartoons/" target="blank"
+           title="keywords-here">
+            <img class="soc-link-icon"
+              src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.svg" /></a>
 
         </div>
-      </header>
+
+      </div>
+    </header>
