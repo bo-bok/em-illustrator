@@ -1,6 +1,9 @@
-<!-- The main template. If your Theme provides its own templates, index.php must be present. -->
+<?php
 
-<?php get_header(); ?>
+// The main template. If your Theme provides its own templates, index.php must be present.
+
+get_header(); ?>
+
 
 <section class="row">
   <div class="small-12 columns text-center">

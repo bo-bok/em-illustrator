@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+// controls the home page 
+get_header(); ?>
 
 <!-- gallery grid system  -->
 <div class="row">

@@ -1,12 +1,12 @@
-<!-- the page template. used when an individual page is queried. -->
-
 <?php
   /*
     Template Name: About Page
   */
 ?>
 
-<?php get_header(); ?>
+<?php
+// the page template. used when an individual page is queried.
+get_header(); ?>
 
 <!-- <section class="row">
   <div class="small-12 columns text-center">
