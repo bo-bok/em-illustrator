@@ -1,11 +1,11 @@
-<!-- // this file is for:
-   - enqueue theme stylesheets and scripts. see wp_enqueue_scripts.
-   - enable theme features such as sidebars, navigation menus, post thumbnails, post formats, custom headers, custom backgrounds and others.
-   - define functions used in several template files of your theme.
-   - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
- -->
-
 <?php
+
+ // this file is for:
+  //  - enqueue theme stylesheets and scripts. see wp_enqueue_scripts.
+  //  - enable theme features such as sidebars, navigation menus, post thumbnails, post formats, custom headers, custom backgrounds and others.
+  //  - define functions used in several template files of your theme.
+  //  - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
+
 
 // these functions add theme support for x
 add_theme_support( 'menus' );
@@ -47,11 +47,3 @@ function em_theme_js() {
 }
 add_action( 'wp_enqueue_scripts', 'em_theme_js' );
 // we're saying, wordpress,when its time for you to enqueue these scripts,enqueue them from here
-
-
-
-
-
-
-// END OF PHP BLOCK
-?>
