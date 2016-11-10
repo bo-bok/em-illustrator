@@ -31,33 +31,6 @@ function wptp_add_categories_to_attachments() {
 }
 add_action( 'init' , 'wptp_add_categories_to_attachments' );
 
-// ===========================================================================
-// function search_filter($query) {
-// if ( !is_admin() && $query->is_main_query() ) {
-//   if ($query->is_category() ) {
-//     $query->set('post_type', array( 'post', 'attachments' ) );
-//   }
-// }
-// echo "test";
-// }
-// add_action('pre_get_posts','search_filter');
-
-
-function attachment_search( $query ) {
-    if ( $query->is_search() ) {
-       $query->set( 'post_type', array( 'post', 'attachment' ) );
-       $query->set( 'post_status', array( 'publish', 'inherit' ) );
-    }
-
-   return $query;
-}
-
-echo "test";
-
-add_filter( 'pre_get_posts', 'attachment_search' );
-
-// ===========================================================================
-
 
  // this function loads the style (css) files
 function em_theme_styles() {
