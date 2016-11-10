@@ -26,20 +26,19 @@ add_action( 'init', 'register_theme_menus' );
 
 
 // shows categories box on media editing page, meaning that you can attach categories to images
-  function wptp_add_categories_to_attachments() {
-      register_taxonomy_for_object_type( 'category', 'attachment' );
-  }
-  add_action( 'init' , 'wptp_add_categories_to_attachments' );
+function wptp_add_categories_to_attachments() {
+  register_taxonomy_for_object_type( 'category', 'attachment' );
+}
+add_action( 'init' , 'wptp_add_categories_to_attachments' );
 
 
  // this function loads the style (css) files
- function em_theme_styles() {
-   wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css' );
-   wp_enqueue_style( 'AdabiCondensedLight_font', '//db.onlinewebfonts.com/c/15898c1b4ff12cded84f74a011b62a91?family=Abadi+MT+Condensed+Light' );
-   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
-
- }
- add_action( 'wp_enqueue_scripts', 'em_theme_styles' );
+function em_theme_styles() {
+  wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css' );
+  wp_enqueue_style( 'AdabiCondensedLight_font', '//db.onlinewebfonts.com/c/15898c1b4ff12cded84f74a011b62a91?family=Abadi+MT+Condensed+Light' );
+  wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'em_theme_styles' );
 
 
 // this function loads the scripts (js), order is important
