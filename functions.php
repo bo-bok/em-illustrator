@@ -25,6 +25,13 @@ function register_theme_menus() {
 add_action( 'init', 'register_theme_menus' );
 
 
+// shows categories box on media editing page, meaning that you can attach categories to images
+  function wptp_add_categories_to_attachments() {
+      register_taxonomy_for_object_type( 'category', 'attachment' );
+  }
+  add_action( 'init' , 'wptp_add_categories_to_attachments' );
+
+
  // this function loads the style (css) files
  function em_theme_styles() {
    wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css' );
