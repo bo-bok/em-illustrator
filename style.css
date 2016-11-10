@@ -23,6 +23,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 
+
 /* ========================================================================= */
 /* This stylesheet employs mobile first approach */
 /* ========================================================================= */
@@ -224,7 +225,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   /* ================================================================= */
 
   .page-container {
-    width: 80%;
+    width: 70%;
   }
 
   /* HEADER */
