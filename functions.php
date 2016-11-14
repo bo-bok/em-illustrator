@@ -17,7 +17,6 @@ function register_theme_menus() {
   register_nav_menus(
     array(
       'primary-menu' => __( 'Primary Menu' ),
-      'site-header-logo-link' => __( 'Site Header Logo Link' ),
       'social-media-menu' => __( 'Social Media Menu' )
     )
   );
