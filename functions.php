@@ -15,7 +15,7 @@ add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
 
 // set custom image sizes
-add_image_size( 'category-thumb', 300, 300, true );
+add_image_size( 'category-thumb', 500, 500, true );
 add_image_size( 'single-image', 1000, 1000);
 
 
