@@ -25,16 +25,8 @@
           <div class="logo-container col-12">
             <!-- <a href="em-static-home.html"><img src="assets/graphics/em-logo.svg" /></a> -->
 
-
-            <?php
-              $defaults = array(
-                'container' => false,
-                'theme_location' => 'site-header-logo-link', //tells wp where that menu lives
-                'menu_class' => 'logo-img col-12'
-              );
-
-              wp_nav_menu( $defaults );
-            ?>
+            <a href="<?php echo esc_url(home_url("/"))?>">
+              <img src="<?= get_template_directory_uri()?>/assets/graphics/em-logo.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/></a>
 
           </div>
       </div>
