@@ -7,9 +7,16 @@
   //  - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
 
 
-// these functions add theme support for following:
+// add theme support for menus:
 add_theme_support( 'menus' );
+
+
+// add theme support for post-thumbnails
 add_theme_support( 'post-thumbnails' );
+
+// set custom image sizes
+add_image_size( 'category-thumb', 300, 300, true );
+add_image_size( 'single-image', 1000, 1000);
 
 
 // this function makes WP recognise our menu

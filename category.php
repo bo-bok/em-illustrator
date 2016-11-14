@@ -15,7 +15,7 @@ get_header(); ?>
 
 <div class="float-left">
 
-  <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
+  <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'category-thumb' ); ?></a>
 
 </div>
 <!-- <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?></a> -->
