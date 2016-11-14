@@ -11,12 +11,15 @@ get_header(); ?>
 
       <h1><?php the_title(); ?></h1>
       <p><?php the_content(); ?></p>
+      <p>test index.php</p>
 
-    <?php endwhile; else : ?>
+      <li class="cat">in <?php the_category( ' ' ); ?></li>
+      <li class="date ">on <?php the_time( 'F j, Y' ); ?></li>
 
-      <p><?php _e( 'Sorry, no posts matched your criteria.', 'treehouse-portfolio' ); ?></p>
+      <div class="alignleft"><?php next_posts_link( 'Next post' ); ?></div>
+      <div class="alignright"><?php previous_posts_link( 'Previous posts' ); ?></div>
 
-    <?php endif; ?>
+    <?php endwhile; endif; ?>
 
   </section>
 
