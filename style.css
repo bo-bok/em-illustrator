@@ -46,6 +46,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* initial structure is one column layout spanning 100% width */
 /* ========================================================================= */
 
+/* WP CLASSES */
+/* ========================================================================= */
+
+.post {}
+
+/* ========================================================================= */
+
+
+.float-left {
+  float: left;
+}
 /* clearfix */
 .row::after {
     content: "";
@@ -71,6 +82,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
 
 /* HEADER */
 /* ========================================================================= */
@@ -87,14 +101,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .logo-img {
   /*display: inline-block;*/
   /*width: 80%;*/
-  background-image: url(assets/graphics/em-logo.svg);
-  background-repeat: no-repeat;
+  /*background-image: url(assets/graphics/em-logo.svg);
+  background-repeat: no-repeat;*/
 }
 
 .logo-img a {
-  display: inline-block;
+  /*display: inline-block;
   height: 100px;
   width: 100px;
+  overflow: hidden;
+  text-indent: -999px;*/
   /*background-image: url(assets/graphics/em-logo.svg);
   background-repeat: no-repeat;*/
 }
