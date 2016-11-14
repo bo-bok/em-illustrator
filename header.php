@@ -28,9 +28,9 @@
             <a href="<?php echo esc_url(home_url("/"))?>">
               <img src="<?= get_template_directory_uri()?>/assets/graphics/em-logo.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/></a>
 
+              <hr />
           </div>
 
-          <hr />
 
       </div>
 
