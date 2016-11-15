@@ -50,5 +50,4 @@ get_header(); ?>
   </div>
 </div>
 
-<!-- use plugin to add image to category - wp term images -->
 <?php get_footer(); ?>

@@ -1,8 +1,6 @@
 <?php
 
 // front-page.php template controls the home page
-// this file uses a static aproach, will improve with fully dynamic homepage.
-// probably using wp term images plugin [see docs & skype]
 
 get_header(); ?>
 
