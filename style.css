@@ -11,18 +11,6 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-/* !update theme metadata*/
-
-/**
-  * Table of Contents
-  *
-  * 1.0 - This is a cool idea
-  * 2.0 - A TOC so people can navigate css easily
-  *   2.1 - Though, it might not work with a more modularised approach to css (preprocessing w/ sass)
-  * 3.0 - experimentation is the spice of life so i'll try it anyway
-*/
-
-
 
 /* ========================================================================= */
 /* This stylesheet employs mobile first approach */
@@ -31,60 +19,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* imports font */
 /* ========================================================================= */
-/*@font-face {
-    font-family: "Abadi MT Condensed Light";
-    src: url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.eot");
-    src: url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.svg#Abadi MT Condensed Light") format("svg");
-}*/
-
-
-/* PAGE STRUCTURE */
-/* initial structure is one column layout spanning 100% width */
-/* ========================================================================= */
 
 /* WP CLASSES */
 /* ========================================================================= */
 
 .post {}
 
-/* any image in a post [fixes height]  */
-/* ========================================================================= */
+  /* any image in a post [fixes height]  */
 .posts-list .wp-post-image {
    height: auto !important;
 }
 
-/* CATEGORY PAGE */
+/* PAGE STRUCTURE */
+/* initial structure is one column layout spanning 100% width */
 /* ========================================================================= */
-.thumbnail-category-container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.category-page-thumbnail {
-  float: left;
-}
-
-.category-page-thumbnail-image {
-  width: 100%;
-}
-
-/* SINGLE PAGE */
-/* ========================================================================= */
-
-.image-container-single {
-  margin: auto;
-  width: 70%;
-  background-color: pink;
-}
-
-.single-image {
-  margin: auto;
-  width: 100%;
-}
 
 /* clearfix */
 .row::after {
@@ -117,31 +65,9 @@ img {
 
 /* HEADER */
 /* ========================================================================= */
-
 /* LOGO */
 .logo-container {
   text-align: center;
-  /*padding-left: 30px !important;*/
-  /*background-image: url(assets/graphics/em-logo.svg);*/
-  /*background-position: left;*/
-  /*background-repeat: no-repeat;*/
-}
-
-.logo-img {
-  /*display: inline-block;*/
-  /*width: 80%;*/
-  /*background-image: url(assets/graphics/em-logo.svg);
-  background-repeat: no-repeat;*/
-}
-
-.logo-img a {
-  /*display: inline-block;
-  height: 100px;
-  width: 100px;
-  overflow: hidden;
-  text-indent: -999px;*/
-  /*background-image: url(assets/graphics/em-logo.svg);
-  background-repeat: no-repeat;*/
 }
 
 
@@ -178,7 +104,7 @@ img {
 /* SOCIAL MEDIA ICONS/LINKS */
 .social-links {
   padding: 0;
-  text-align: center;                                              /* NEED RESPONSIVE ADAPTATION (text-align: none;) */
+  text-align: center;
 }
 
 .soc-link-icon {
@@ -191,7 +117,6 @@ img {
 
 /* FOOTER */
 /* ========================================================================= */
-
 .footer {
   border-top: 1px solid #eee;
 }
@@ -199,6 +124,11 @@ img {
 .footer-text {
   text-align: center;
 }
+
+
+/* ========================================================================= */
+/* Individual Pages */
+/* ========================================================================= */
 
 /* HOME PAGE */
 /* ========================================================================= */
@@ -211,7 +141,6 @@ img {
 
 /* ABOUT PAGE */
 /* ========================================================================= */
-
 .left-box-about-image {
   width: 90%;
   vertical-align: top;
@@ -228,6 +157,36 @@ img {
     vertical-align: top;
     text-align: justify;
     margin: auto;
+}
+
+
+/* CATEGORY PAGE */
+/* ========================================================================= */
+.thumbnail-category-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.category-page-thumbnail {
+  float: left;
+}
+
+.category-page-thumbnail-image {
+  width: 100%;
+}
+
+
+/* SINGLE PAGE */
+/* ========================================================================= */
+.image-container-single {
+  margin: auto;
+  width: 70%;
+  background-color: pink;
+}
+
+.single-image {
+  margin: auto;
+  width: 100%;
 }
 
 
