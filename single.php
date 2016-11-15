@@ -10,7 +10,7 @@ get_header(); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
       <h1><?php the_title(); ?></h1>
-  <div class="single-image"><?php the_post_thumbnail( 'single-image' ); ?></div>
+      <div class="single-image"><?php the_post_thumbnail( 'single-image' ); ?></div>
       <?php the_content(); ?>
 
 
