@@ -24,5 +24,5 @@ get_header(); ?>
     <p>this is coming from category.php</p>
   </div>
 
-
+<!-- simple table like that of font-page.php -->
 <?php get_footer(); ?>
