@@ -16,9 +16,6 @@ get_header(); ?>
       <li class="cat">in <?php the_category( ' ' ); ?></li>
       <li class="date ">on <?php the_time( 'F j, Y' ); ?></li>
 
-      <div class="alignleft"><?php next_posts_link( 'Next post' ); ?></div>
-      <div class="alignright"><?php previous_posts_link( 'Previous posts' ); ?></div>
-
     <?php endwhile; endif; ?>
 
   </section>
