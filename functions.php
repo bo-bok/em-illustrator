@@ -16,7 +16,7 @@ add_theme_support( 'post-thumbnails' );
 
 // set custom image sizes
 add_image_size( 'category-thumb', 500, 500, true );
-add_image_size( 'single-image', 1000, 1000);
+add_image_size( 'single-image', 750, 750);
 
 
 // this function makes WP recognise our menu
