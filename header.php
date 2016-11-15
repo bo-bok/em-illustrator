@@ -23,15 +23,10 @@
     <header>
       <div class="header row">
           <div class="logo-container col-12">
-            <!-- <a href="em-static-home.html"><img src="assets/graphics/em-logo.svg" /></a> -->
-
             <a href="<?php echo esc_url(home_url("/"))?>">
               <img src="<?= get_template_directory_uri()?>/assets/graphics/em-logo.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/></a>
-
               <hr />
           </div>
-
-
       </div>
 
 
