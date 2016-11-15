@@ -6,13 +6,13 @@ get_header(); ?>
 
   <?php echo category_description(); ?>
 
-  <div class="row thumbnail-category-container">
+  <div class="row thumbnail-category-container posts-list">
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-      <div class="category-page-thumbnail">
+      <div class="category-page-thumbnail col-6 col-lg-4">
         <a class="category-page-thumbnail-image" href="<?php the_permalink(); ?>">
-          <?php the_post_thumbnail( 'category-thumb'); ?>
+          <?php the_post_thumbnail( 'category-thumb' ); ?>
         </a>
       </div>
 
