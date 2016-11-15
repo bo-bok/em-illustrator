@@ -14,7 +14,7 @@ get_header(); ?>
       <p>test index.php</p>
 
       <li class="cat">in <?php the_category( ' ' ); ?></li>
-      <li class="date ">on <?php the_time( 'F j, Y' ); ?></li>
+      <li class="date">on <?php the_time( 'F j, Y' ); ?></li>
 
     <?php endwhile; endif; ?>
 
