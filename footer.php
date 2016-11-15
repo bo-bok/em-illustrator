@@ -11,12 +11,10 @@
     </div>
 
     <?php wp_footer(); ?>
-    <!-- tells wp you can output any scripts here -->
 
 
   <!-- CLOSE -->
   <!-- ================================================================ -->
-
   </body>
 
 </html>
