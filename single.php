@@ -8,14 +8,14 @@ get_header(); ?>
   <section class="row">
 
     <div class="table-container">
-      <div class="table">
+      <div class="table-single">
         <!-- large image -->
-        <div class="table-cell">
+        <div class="table-cell-single">
 
           <div class="image-container-single">
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-            <h1><?php the_title(); ?></h1>
+            <!-- <h1><?php the_title(); ?></h1> -->
             <div class="single-image"><?php the_post_thumbnail( 'single-image' ); ?></div>
             <?php the_content(); ?>
 
