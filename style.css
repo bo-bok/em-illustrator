@@ -168,13 +168,17 @@ img {
 }
 
 .category-page-thumbnail {
-  float: left;
+  /*float: left;*/
+
 }
 /* CHANGE TO GRID */
 
-.category-page-thumbnail-image {
+.category-page-thumbnail-image img {
   width: 100%;
+  height: auto !important;
+
 }
+
 
 
 /* SINGLE PAGE */
@@ -185,9 +189,11 @@ img {
   background-color: pink;
 }
 
-.single-image {
+.single-image img {
   margin: auto;
   width: 100%;
+  height: auto !important;
+
 }
 
 
