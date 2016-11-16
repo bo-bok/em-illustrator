@@ -55,7 +55,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .page-container {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
@@ -186,14 +186,12 @@ img {
 .image-container-single {
   margin: auto;
   width: 70%;
-  background-color: pink;
 }
 
 .single-image img {
   margin: auto;
   width: 100%;
   height: auto !important;
-
 }
 
 
@@ -237,6 +235,7 @@ img {
 
   .page-container {
     width: 70%;
+    background-color: pink;
   }
 
   /* HEADER */
