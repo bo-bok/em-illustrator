@@ -34,21 +34,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* initial structure is one column layout spanning 100% width */
 /* ========================================================================= */
 
-/* clearfix */
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-/* sets all columns to width: 100% */
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-    min-height: 1px; /* prevents horizontal collapse */
-    width: 100%;
-}
-
 * {
   color: #000;
   box-sizing: border-box;
@@ -231,24 +216,6 @@ padding-bottom: 20px;
 
 @media (min-width: 660px) {
 
-  /* RESPONSIVE GRID */
-  /* layout switches from 1-column to 12-column responsive grid */
-  /* ================================================================= */
-
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-
-
   /* PAGE STRUCTURE */
   /* ================================================================= */
 
@@ -342,29 +309,26 @@ padding-bottom: 20px;
 
 @media (min-width: 1000px) {
 
-  /* RESPONSIVE GRID */
-  /* layout switches from 1-column to 12-column responsive grid */
-  /* ================================================================= */
-
-  .col-lg-1 {width: 8.33%;}
-  .col-lg-2 {width: 16.66%;}
-  .col-lg-3 {width: 25%;}
-  .col-lg-4 {width: 33.33%;}
-  .col-lg-5 {width: 41.66%;}
-  .col-lg-6 {width: 50%;}
-  .col-lg-7 {width: 58.33%;}
-  .col-lg-8 {width: 66.66%;}
-  .col-lg-9 {width: 75%;}
-  .col-lg-10 {width: 83.33%;}
-  .col-lg-11 {width: 91.66%;}
-  .col-lg-12 {width: 100%;}
 }
 
-/* SPECIFICS */
-/*#menu-item-56 {
-  overflow: hidden;
-  text-indent: -999px;
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ================================================================= */
