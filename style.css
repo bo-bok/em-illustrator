@@ -68,12 +68,25 @@ img {
 /* LOGO */
 .logo-container {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.em-header-logo {
+  width: 85%;
+  margin: auto;
+  /*height: auto !important;*/
+
+}
+
+.line-break-header {
+  padding: 0 15px 0 15px;
 }
 
 
 /* SITE NAV */
 .nav-bar {
-  padding: 15px;
+  padding: 0px 15px 10px 15px;
 }
 
 .nav {
@@ -86,18 +99,24 @@ img {
   display: inline-block;
   margin-right: 10px;
   font-family: 'Abadi MT Condensed Light', sans-serif;
-  font-size: 48px;
-  padding-top: 10px;
+  font-size: 2.5em;
+  /*padding-top: 10px;*/
   padding-bottom: 20px;
-  width: 100%;
+  /*width: 100%;*/
 }
 
+
+/*font-size: 3em;
+padding-top: 10px;
+padding-bottom: 20px;
+*/
 .nav a {
   text-decoration: none;
   display: block;
-  padding-top: 6px
+  padding: 10px 50px 10px 50px;
+  /*padding-top: 6px;
   padding-right: 20px;
-  padding-left: 4px;
+  padding-left: 4px;*/
 }
 
 
@@ -111,7 +130,7 @@ img {
   height: 48px;
   width: 48px;
   margin-left: 10px;
-  margin: 10px;
+  /*margin: 10px;*/
 }
 
 
@@ -201,7 +220,7 @@ img {
 @media(min-width: 560px){
 
   .nav li {
-    font-size: 32px;
+    /*font-size: 1em;*/
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -235,7 +254,6 @@ img {
 
   .page-container {
     width: 70%;
-    background-color: pink;
   }
 
   /* HEADER */
