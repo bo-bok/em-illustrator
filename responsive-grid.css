@@ -22,7 +22,7 @@
 
 /* SMALL SCREENS [768px + ] - default */
 /* ========================================================================= */
-@media (mind-width: 768px) {
+@media (min-width: 768px) {
 
   .col-sm-1 {width: 8.33%;}
   .col-sm-2 {width: 16.66%;}
@@ -65,10 +65,6 @@
 /* ========================================================================= */
 
 @media (min-width: 1200px) {
-
-  /* RESPONSIVE GRID */
-  /* layout switches from 1-column to 12-column responsive grid */
-  /* ================================================================= */
 
   .col-lg-1 {width: 8.33%;}
   .col-lg-2 {width: 16.66%;}

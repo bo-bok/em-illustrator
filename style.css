@@ -11,7 +11,6 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-
 /* ========================================================================= */
 /* This stylesheet employs mobile first approach */
 /* ========================================================================= */
@@ -106,15 +105,47 @@ padding-bottom: 20px;
 
 
 /* SOCIAL MEDIA ICONS/LINKS */
+
+
+.table-social-links {
+ display: table;
+ table-layout: fixed;
+ width: 100%;
+ background-color: red;
+}
+
+.table-row-social-links {
+ display: table-row;
+ background-color: green;
+}
+
+.table-cell-social-links {
+ padding: 20px;
+ display: table-cell;
+ background-color: purple;
+ border: grey solid 1px;
+ padding: 5px;
+ text-align: center;
+
+
+}
+
 .social-links {
   padding: 0;
-  text-align: center;
+  background-color: pink;
+  /*text-align: center;*/
+
 }
 
 .soc-link-icon {
   height: 48px;
   width: 48px;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
+  background-color: yellow;
+  border: red solid 1px;
+  margin: auto;
+
+
   /*margin: 10px;*/
 }
 
@@ -214,7 +245,7 @@ padding-bottom: 20px;
 }
 
 
-@media (min-width: 660px) {
+@media (min-width: 768px) {
 
   /* PAGE STRUCTURE */
   /* ================================================================= */
@@ -251,11 +282,11 @@ padding-bottom: 20px;
   /* SOCIAL MEDIA ICONS/LINKS */
 
   .social-links {
-    text-align: right;
+    /*text-align: right;*/
   }
 
   .soc-link-icon {
-    float: right;
+    /*float: right;*/
   }
 
 

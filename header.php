@@ -23,16 +23,16 @@
     <header>
       <div class="header row">
 
-          <div class="logo-container col-12">
+          <div class="logo-container col-sm-12">
             <a href="<?php echo esc_url(home_url("/"))?>">
               <img class="em-header-logo"
               src="<?= get_template_directory_uri()?>/assets/graphics/em-logo.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/></a>
           </div>
 
-        <div class="line-break-header col-12">
+        <div class="line-break-header col-sm-12">
            <hr />
          </div>
-         
+
       </div>
 
 
@@ -44,7 +44,7 @@
           $defaults = array(
             'container' => false,
             'theme_location' => 'primary-menu', //tells wp where menu lives
-            'menu_class' => 'nav col-5'
+            'menu_class' => 'nav col-sm-5'
           );
 
           wp_nav_menu( $defaults );
@@ -52,27 +52,46 @@
 
 
         <!-- social media links -->
-        <div class="social-links col-7">
+        <div class="social-links col-sm-7">
 
-          <a href="https://twitter.com/emilyscartoons" target="blank"
-            title="keywords-here">
-              <img class="soc-link-icon"
-                src="<?= get_template_directory_uri() ?>/assets/graphics/twitter-icon.svg" /></a>
+            <div class="table-social-links">
 
-          <a href="https://en-gb.facebook.com/backgroundslytherin/" target="blank"
-            title="keywords-here">
-              <img class="soc-link-icon"
-                src="<?= get_template_directory_uri() ?>/assets/graphics/fb-icon.svg" /></a>
+              <div class="table-row-social-links">
 
-          <a href="http://emilyscartoons.tumblr.com/" target="blank"
-            title="keywords-here">
-              <img class="soc-link-icon"
-              src="<?= get_template_directory_uri() ?>/assets/graphics/tumblr-icon.svg" /></a>
+                <!-- Background Slytherin -->
+                <div class="table-cell-social-links">
+                  <a href="https://twitter.com/emilyscartoons" target="blank"
+                    title="keywords-here">
+                      <img class="soc-link-icon"
+                        src="<?= get_template_directory_uri() ?>/assets/graphics/twitter-icon.svg" /></a>
+                </div>
 
-          <a href="https://www.instagram.com/emilyscartoons/" target="blank"
-           title="keywords-here">
-            <img class="soc-link-icon"
-              src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.svg" /></a>
+                <div class="table-cell-social-links">
+                  <a href="https://en-gb.facebook.com/backgroundslytherin/" target="blank"
+                    title="keywords-here">
+                      <img class="soc-link-icon"
+                        src="<?= get_template_directory_uri() ?>/assets/graphics/fb-icon.svg" /></a>
+                </div>
+
+                <div class="table-cell-social-links">
+                  <a href="http://emilyscartoons.tumblr.com/" target="blank"
+                    title="keywords-here">
+                      <img class="soc-link-icon"
+                      src="<?= get_template_directory_uri() ?>/assets/graphics/tumblr-icon.svg" /></a>
+                </div>
+
+                <div class="table-cell-social-links">
+                  <a href="https://www.instagram.com/emilyscartoons/" target="blank"
+                   title="keywords-here">
+                    <img class="soc-link-icon"
+                      src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.svg" /></a>
+                </div>
+
+                </div>
+
+              </div>
+
+            </div>
 
         </div>
 
