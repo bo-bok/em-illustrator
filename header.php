@@ -44,7 +44,7 @@
           $defaults = array(
             'container' => false,
             'theme_location' => 'primary-menu', //tells wp where menu lives
-            'menu_class' => 'nav col-sm-5'
+            'menu_class' => 'nav col-sm-5 col-md-7'
           );
 
           wp_nav_menu( $defaults );
@@ -52,7 +52,7 @@
 
 
         <!-- social media links -->
-        <div class="social-links col-sm-7">
+        <div class="social-links col-sm-7 col-md-5">
 
             <div class="table-social-links">
 
@@ -87,12 +87,12 @@
                       src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.svg" /></a>
                 </div>
 
-                </div>
-
               </div>
 
             </div>
 
-        </div>
+          </div>
+
+      </div>
 
     </header>
