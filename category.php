@@ -13,11 +13,10 @@ get_header(); ?>
   </div>
 
   <div class="row">
-    <div class="col-12">
-
+    <div class="category-gallery-container col-sm-12">
 
       <!-- display category images -->
-        <div class="table-container">
+        <!-- <div class="table-container"> -->
           <div class="table-category">
 
             <div class="table-row-category">
@@ -39,17 +38,9 @@ get_header(); ?>
             </div>
 
           </div>
-        </div>
+        <!-- </div> -->
 
+      </div>
+  </div>
 
-        <div class="row">
-          <p>this is coming from category.php</p>
-        </div>
-
-
-
-</div>
-</div>
-
-<!-- simple table like that of font-page.phpc -->
 <?php get_footer(); ?>

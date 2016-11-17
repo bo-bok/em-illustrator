@@ -200,6 +200,14 @@ img {
 
 /* CATEGORY PAGE */
 /* ========================================================================= */
+.category-gallery-container {
+  border: solid red 1px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:15px;
+  padding-left:15px;
+}
+
 .category-description {
   text-align: center;
   /*font-size: 1em;*/
@@ -212,6 +220,7 @@ img {
 
 .category-page-thumbnail {
   /*float: left;*/
+  padding:0;
 }
 /* CHANGE TO GRID */
 
@@ -406,8 +415,12 @@ img {
 
 }
 
-
-
+/* CATEGORY PAGE */
+/* ================================================================= */
+.category-page-thumbnail {
+  /*float: left;*/
+  /*padding: 0.6em;*/
+}
 
 @media (min-width: 1000px) {
 
