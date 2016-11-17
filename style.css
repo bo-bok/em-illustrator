@@ -248,8 +248,9 @@ padding-bottom: 20px;
 /* ========================================================================= */
 .image-container-single {
   margin: auto;
-  width: 70%;
-  margin-top: 50px;
+  width: 100%;
+  /*margin-top: 50px;*/
+  /*for larger screens [move]*/
 }
 
 .single-image img {
@@ -258,6 +259,31 @@ padding-bottom: 20px;
   height: auto !important;
 }
 
+.single-prev-post {
+  background-color: pink;
+  /*position: absolute;*/
+}
+
+.single-main-image-container {
+  background-color: green;
+}
+
+.single-next-post {
+  background-color: orange;
+  /*position: absolute:*/
+}
+
+.return-to-cat-page {
+  background-color: teal;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.test-container-1 {
+  border: 2px solid red;
+  /*min-height:1px;*/
+
+}
 
 /* MEDIA QUERIES */
 /* ========================================================================= */
