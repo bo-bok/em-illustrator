@@ -73,7 +73,7 @@ img {
 
 /* SITE NAV */
 .nav-bar {
-  padding: 0px 15px 10px 15px;
+  padding: 0;
 }
 
 .nav {
@@ -86,21 +86,15 @@ img {
   display: inline-block;
   margin-right: 10px;
   font-family: 'Abadi MT Condensed Light', sans-serif;
-  font-size: 2.5em;
-  /*padding-top: 10px;*/
-  padding-bottom: 20px;
-  /*width: 100%;*/
+  font-size: 2em;
 }
 
 
-/*font-size: 3em;
-padding-top: 10px;
-padding-bottom: 20px;
-*/
 .nav a {
   text-decoration: none;
   display: block;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 50px 0px 50px;
+  margin-bottom: 10px;  /*over ride */
   /*padding-top: 6px;
   padding-right: 20px;
   padding-left: 4px;*/
@@ -140,8 +134,8 @@ padding-bottom: 20px;
 .social-links {
   padding: 0;
   background-color: pink;
+  margin-top: 10px;
   /*text-align: center;*/
-
 }
 
 .soc-link-icon {
@@ -322,6 +316,11 @@ padding-bottom: 20px;
 
 
   /* SITE NAV */
+
+  .nav-bar {
+    padding: 0px 15px 10px 15px;
+  }
+
   .nav {
     text-align: left;
     display: table-cell;
@@ -333,9 +332,8 @@ padding-bottom: 20px;
   }
 
   .nav a {
-    /*float: left;*/
-    width: 50%;
-    padding-left: 0;
+    /*width: 50%;*/
+    padding: 0;
 
   }
 
@@ -346,7 +344,8 @@ padding-bottom: 20px;
   /* SOCIAL MEDIA ICONS/LINKS */
 
   .social-links {
-    /*text-align: right;*/
+    margin-top: 0;
+    /*text-align: center;*/
   }
 
   .soc-link-icon {
