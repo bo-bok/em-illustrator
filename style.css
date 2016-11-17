@@ -54,18 +54,21 @@ img {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
+  padding: 0;
+  margin-top: 20px;
 }
 
 .em-header-logo {
-  width: 85%;
+  width: 100%;
   margin: auto;
   /*height: auto !important;*/
 
 }
 
 .line-break-header {
-  padding: 0 15px 0 15px;
+  padding: 0;
 }
+
 
 
 /* SITE NAV */
@@ -288,6 +291,7 @@ padding-bottom: 20px;
 /* MEDIA QUERIES */
 /* ========================================================================= */
 
+/* MEDUIM SCREEM SIZE [col-md] */
 @media (min-width: 768px) {
 
   /* PAGE STRUCTURE */
@@ -301,9 +305,17 @@ padding-bottom: 20px;
   /* ================================================================= */
 
   /* LOGO */
+  .logo-container {
+    padding: 0px 15px 10px 15px;
+  }
+
   .logo-img {
     display: inline-block;
     width: 100%;
+  }
+
+  .line-break-header {
+    padding: 0 15px 0 15px;
   }
 
 
