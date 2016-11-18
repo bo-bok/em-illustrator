@@ -10,12 +10,8 @@ get_header(); ?>
 
       <h1><?php the_title(); ?></h1>
       <p><?php the_content(); ?></p>
-
-    <?php endwhile; else : ?>
-
-      <p><?php _e( 'Sorry, no posts matched your criteria.', 'treehouse-portfolio' ); ?></p>
-
-    <?php endif; ?>
+      <p>test page.php</p>
+    <?php endwhile; endif; ?>
 
   </section>
 

@@ -7,9 +7,17 @@
   //  - set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
 
 
-// these functions add theme support for following:
+// add theme support for menus:
 add_theme_support( 'menus' );
+
+
+// add theme support for post-thumbnails
 add_theme_support( 'post-thumbnails' );
+
+// set custom image sizes
+add_image_size( 'category-thumb', 500, 500, true );
+add_image_size( 'single-image', 700, 700);
+add_image_size( 'about-portrait-img', 700, 700);
 
 
 // this function makes WP recognise our menu
@@ -17,7 +25,6 @@ function register_theme_menus() {
   register_nav_menus(
     array(
       'primary-menu' => __( 'Primary Menu' ),
-      'site-header-logo-link' => __( 'Site Header Logo Link' ),
       'social-media-menu' => __( 'Social Media Menu' )
     )
   );
@@ -36,6 +43,7 @@ add_action( 'init' , 'wptp_add_categories_to_attachments' );
 function em_theme_styles() {
   wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css' );
   wp_enqueue_style( 'AdabiCondensedLight_font', '//db.onlinewebfonts.com/c/15898c1b4ff12cded84f74a011b62a91?family=Abadi+MT+Condensed+Light' );
+  wp_enqueue_style( 'responsiveGrid_css', get_template_directory_uri() . '/responsive-grid.css');
   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'em_theme_styles' );

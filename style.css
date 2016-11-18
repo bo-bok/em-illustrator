@@ -11,19 +11,6 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-/* !update theme metadata*/
-
-/**
-  * Table of Contents
-  *
-  * 1.0 - This is a cool idea
-  * 2.0 - A TOC so people can navigate css easily
-  *   2.1 - Though, it might not work with a more modularised approach to css (preprocessing w/ sass)
-  * 3.0 - experimentation is the spice of life so i'll try it anyway
-*/
-
-
-
 /* ========================================================================= */
 /* This stylesheet employs mobile first approach */
 /* ========================================================================= */
@@ -31,35 +18,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* imports font */
 /* ========================================================================= */
-/*@font-face {
-    font-family: "Abadi MT Condensed Light";
-    src: url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.eot");
-    src: url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/15898c1b4ff12cded84f74a011b62a91.svg#Abadi MT Condensed Light") format("svg");
-}*/
 
+/* WP CLASSES */
+/* ========================================================================= */
+
+.post {}
+
+  /* any image in a post [fixes height]  */
+.posts-list .wp-post-image {
+   height: auto !important;
+}
 
 /* PAGE STRUCTURE */
 /* initial structure is one column layout spanning 100% width */
 /* ========================================================================= */
-
-/* clearfix */
-.row::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-/* sets all columns to width: 100% */
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-    min-height: 1px; /* prevents horizontal collapse */
-    width: 100%;
-}
 
 * {
   color: #000;
@@ -67,42 +39,41 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .page-container {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
 
 /* HEADER */
 /* ========================================================================= */
-
 /* LOGO */
 .logo-container {
   text-align: center;
-  /*padding-left: 30px !important;*/
-  /*background-image: url(assets/graphics/em-logo.svg);*/
-  /*background-position: left;*/
-  /*background-repeat: no-repeat;*/
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding: 0;
+  margin-top: 20px;
 }
 
-.logo-img {
-  /*display: inline-block;*/
-  /*width: 80%;*/
-  background-image: url(assets/graphics/em-logo.svg);
-  background-repeat: no-repeat;
+.em-header-logo {
+  width: 100%;
+  margin: auto;
+  /*height: auto !important;*/
+
 }
 
-.logo-img a {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-  /*background-image: url(assets/graphics/em-logo.svg);
-  background-repeat: no-repeat;*/
+.line-break-header {
+  padding: 0;
 }
+
 
 
 /* SITE NAV */
 .nav-bar {
-  padding: 15px;
+  padding: 0;
 }
 
 .nav {
@@ -115,38 +86,73 @@ Use it to make something cool, have fun, and share what you've learned with othe
   display: inline-block;
   margin-right: 10px;
   font-family: 'Abadi MT Condensed Light', sans-serif;
-  font-size: 48px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  width: 100%;
+  font-size: 2em;
 }
+
 
 .nav a {
   text-decoration: none;
   display: block;
-  padding-top: 6px
+  padding: 10px 50px 0px 50px;
+  margin-bottom: 10px;  /*over ride */
+  /*padding-top: 6px;
   padding-right: 20px;
-  padding-left: 4px;
+  padding-left: 4px;*/
 }
 
 
 /* SOCIAL MEDIA ICONS/LINKS */
+
+
+.table-social-links {
+ display: table;
+ table-layout: fixed;
+ width: 100%;
+ background-color: red;
+}
+
+.table-row-social-links {
+ display: table-row;
+ background-color: green;
+}
+
+.table-cell-social-links {
+ padding: 20px;
+ display: table-cell;
+ background-color: purple;
+ border: grey solid 1px;
+ padding: 5px;
+ text-align: right;
+}
+
+.table-cell-social-links:last-child {
+  padding-right: 0;
+  margin-right: 0px;
+}
+
+
 .social-links {
   padding: 0;
-  text-align: center;                                              /* NEED RESPONSIVE ADAPTATION (text-align: none;) */
+  background-color: pink;
+  margin-top: 10px;
+  /*text-align: center;*/
 }
 
 .soc-link-icon {
   height: 48px;
   width: 48px;
-  margin-left: 10px;
-  margin: 10px;
+  /*margin-left: 10px;*/
+  background-color: yellow;
+  border: red solid 1px;
+  margin: auto;
+
+
+  /*margin: 10px;*/
 }
 
 
 /* FOOTER */
 /* ========================================================================= */
-
 .footer {
   border-top: 1px solid #eee;
 }
@@ -155,71 +161,155 @@ Use it to make something cool, have fun, and share what you've learned with othe
   text-align: center;
 }
 
+
+/* ========================================================================= */
+/* Individual Pages */
+/* ========================================================================= */
+
 /* HOME PAGE */
 /* ========================================================================= */
 
 /* image links [in table] */
 .homepage-image {
   width: 100%;
+  margin-bottom: 0.6em;
+  margin-top: 0.6em;
 }
 
 
 /* ABOUT PAGE */
 /* ========================================================================= */
+.image-box-container {
+  /*border: 1px solid blue;*/
+  padding:0;
+  margin-top: 30px;
+}
 
 .left-box-about-image {
-  width: 90%;
-  vertical-align: top;
   margin: auto;
   }
 
 .about-portrait-image {
   width: 100%;
+  height: auto !important;
+
 }
 
 .right-box-about-text {
-    padding-top: 20px;
-    width: 80%;
-    vertical-align: top;
-    text-align: justify;
-    margin: auto;
+  padding-top: 10px;
+  width: 90%;
+  text-align: justify;
+  margin: auto;
 }
 
+.about-text p:first-child {
+  margin-top: 0;
+}
+
+
+/* CATEGORY PAGE */
+/* ========================================================================= */
+.category-gallery-container {
+  border: solid red 1px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+
+.category-description {
+  text-align: center;
+  /*font-size: 1em;*/
+}
+
+.thumbnail-category-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.category-page-thumbnail {
+  /*float: left;*/
+  padding:0;
+  padding-bottom: 10px;
+}
+/* CHANGE TO GRID */
+
+.category-page-thumbnail-image img {
+  width: 100%;
+  height: auto !important;
+}
+
+  .table-container {
+    margin: 0 -20px;
+  }
+
+   .table-category {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .table-row-category {
+    display: table-row;
+  }
+
+  .table-cell-category {
+    padding: 0;
+    display: table-cell;
+  }
+
+
+
+
+
+/* SINGLE PAGE */
+/* ========================================================================= */
+.image-container-single {
+  margin: auto;
+  width: 100%;
+  /*margin-top: 50px;*/
+  /*for larger screens [move]*/
+}
+
+.single-image img {
+  margin: auto;
+  width: 100%;
+  height: auto !important;
+}
+
+.single-prev-post {
+  background-color: pink;
+  /*position: absolute;*/
+}
+
+.single-main-image-container {
+  background-color: green;
+}
+
+.single-next-post {
+  background-color: orange;
+  /*position: absolute:*/
+}
+
+.return-to-cat-page {
+  background-color: teal;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.test-container-1 {
+  border: 2px solid red;
+  /*min-height:1px;*/
+
+}
 
 /* MEDIA QUERIES */
 /* ========================================================================= */
 
-@media(min-width: 560px){
-
-  .nav li {
-    font-size: 32px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-/* end of 560px media query */
-}
-
-
-@media (min-width: 660px) {
-
-  /* RESPONSIVE GRID */
-  /* layout switches from 1-column to 12-column responsive grid */
-  /* ================================================================= */
-
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-
+/* MEDUIM SCREEM SIZE [col-md] */
+@media (min-width: 768px) {
 
   /* PAGE STRUCTURE */
   /* ================================================================= */
@@ -232,15 +322,30 @@ Use it to make something cool, have fun, and share what you've learned with othe
   /* ================================================================= */
 
   /* LOGO */
+  .logo-container {
+    padding: 0px 15px 10px 15px;
+  }
+
   .logo-img {
     display: inline-block;
     width: 100%;
   }
 
+  .line-break-header {
+    padding: 0 15px 0 15px;
+  }
+
 
   /* SITE NAV */
+
+  .nav-bar {
+    padding: 0px 15px 10px 15px;
+  }
+
   .nav {
     text-align: left;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   .nav li {
@@ -248,19 +353,24 @@ Use it to make something cool, have fun, and share what you've learned with othe
   }
 
   .nav a {
-    float: left;
-    width: 50%;
+    /*width: 50%;*/
+    padding: 0;
+
   }
+
+
+
 
 
   /* SOCIAL MEDIA ICONS/LINKS */
 
   .social-links {
-    text-align: right;
+    margin-top: 0;
+    /*text-align: center;*/
   }
 
   .soc-link-icon {
-    float: right;
+    /*float: right;*/
   }
 
 
@@ -288,36 +398,86 @@ Use it to make something cool, have fun, and share what you've learned with othe
     display: table-cell;
   }
 
+  .homepage-image {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+
 
   /* ABOUT PAGE */
   /* ================================================================= */
+  .image-box-container {
+    margin-top: 0;
+  }
 
   .left-box-about-image {
-    width: 40%;
-    vertical-align: top;
     margin: auto;
     }
 
   .right-box-about-text {
-    padding-top: 0px;
-    width: 60%;
-    vertical-align: top;
+    padding-top: 0;
+    padding-right: 0;
     text-align: justify;
+    vertical-align: middle;
+
   }
 
   .about-text {
-    width: 90%;
+    width: 100%;
   }
+
+  .about-table{
+    background-color: pink;
+    margin-right: 0;
+  }
+
+  .about-table-row {
+    display: table-row;
+    background-color: orange;
+  }
+
+  .about-table-cell {
+    display: table-cell;
+    background-color: yellow;
+    /*vertical-align: top;*/
+    border: solid blue 1px;
+  }
+
+/* CATEGORY PAGE */
+/* ================================================================= */
+.category-gallery-container {
+  padding-right:5px;
+  padding-left:5px;
+}
+
+.category-page-thumbnail {
+  /*float: left;*/
+  padding: 10px;
+}
+
+@media (min-width: 1000px) {
 
 }
 
 
 
-/* SPECIFICS */
-/*#menu-item-56 {
-  overflow: hidden;
-  text-indent: -999px;
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ================================================================= */
@@ -341,14 +501,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   background-color: pink;
 }
 
-.col-bkg {
-  background-color: red;
-}
-
 .table-row {
   background-color: pink;
 }
 
 .table-cell {
   border: 1px solid black;
-}*/
+} */
