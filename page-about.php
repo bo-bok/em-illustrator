@@ -9,16 +9,18 @@
 get_header(); ?>
 
 <!-- <div class="about-page-container"> -->
-  <div class="row">
+  <div class="row about-table">
+    <div class="about-table-row">
+
 
     <div class="col-md-6 image-box-container">
-      <div class="left-box-about-image">
+      <div class="left-box-about-image about-table-cell">
         <img class="about-portrait-image" src="<?= get_template_directory_uri()?>/assets/aboutpage-images/em-self-portrait--750px.png" />
       </div>
     </div>
 
     <div class="col-md-6">
-      <div class="table-cell right-box-about-text">
+      <div class="right-box-about-text about-table-cell">
         <div class="about-text">
 
           <p>Emily is from Brussels and writes bios for herself in the third person cos it
@@ -35,6 +37,7 @@ get_header(); ?>
       </div>
     </div>
 
+    </div>
   </div>
 <!-- </div> -->
 
