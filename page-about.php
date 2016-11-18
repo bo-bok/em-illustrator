@@ -8,9 +8,10 @@
 // the page template. used when an individual page is queried.
 get_header(); ?>
 
+<!-- <div class="about-page-container"> -->
   <div class="row">
 
-    <div class="col-md-6">
+    <div class="col-md-6 image-box-container">
       <div class="left-box-about-image">
         <img class="about-portrait-image" src="<?= get_template_directory_uri()?>/assets/aboutpage-images/em-self-portrait--750px.png" />
       </div>
@@ -35,5 +36,6 @@ get_header(); ?>
     </div>
 
   </div>
+<!-- </div> -->
 
 <?php get_footer(); ?>

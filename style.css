@@ -179,8 +179,14 @@ img {
 
 /* ABOUT PAGE */
 /* ========================================================================= */
+.image-box-container {
+  /*border: 1px solid blue;*/
+  padding:0;
+  margin-top: 30px;
+}
+
 .left-box-about-image {
-  width: 90%;
+  width: 100%;
   vertical-align: top;
   margin: auto;
   }
@@ -192,11 +198,15 @@ img {
 }
 
 .right-box-about-text {
-    padding-top: 20px;
-    width: 80%;
+    padding-top: 10px;
+    width: 90%;
     vertical-align: top;
     text-align: justify;
     margin: auto;
+}
+
+.about-text p:first-child {
+  margin-top: 0;
 }
 
 
@@ -397,6 +407,10 @@ img {
 
   /* ABOUT PAGE */
   /* ================================================================= */
+  .image-box-container {
+    margin-top: 0;
+    border: 1px solid red;
+  }
 
   .left-box-about-image {
     /*width: 40%;*/
@@ -406,16 +420,48 @@ img {
 
   .right-box-about-text {
     padding-top: 0px;
+    padding-right: 0;
     /*width: 60%;*/
     vertical-align: top;
     text-align: justify;
   }
 
   .about-text {
-    width: 90%;
+    width: 100%;
   }
 
 }
+
+/*
+.image-box-container {
+  padding:0;
+  margin-top: 30px;
+  border: 1px solid red;
+}
+
+.left-box-about-image {
+  width: 100%;
+  vertical-align: top;
+  margin: auto;
+  }
+
+.about-portrait-image {
+  width: 100%;
+  height: auto !important;
+
+}
+
+.right-box-about-text {
+    padding-top: 10px;
+    width: 90%;
+    vertical-align: top;
+    text-align: justify;
+    margin: auto;
+}
+
+.about-text p:first-child {
+  margin-top: 0;
+}*/
 
 /* CATEGORY PAGE */
 /* ================================================================= */
