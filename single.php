@@ -9,7 +9,11 @@ get_header(); ?>
     <div class="test-container-1">
 
       <div class="single-prev-post col-md-2">
-        <div class="prev-post-link"><?php previous_post_link( '%link', 'Previous', TRUE ); ?></div>
+        <div class="prev-post-link">
+          <?php prev_post_link( '%link',
+           '<img src="' .get_bloginfo("template_directory")
+           . '/assets/graphics/back-arrow.svg" />', TRUE ); ?>
+         </div>
       </div>
 
       <div class="single-main-image-container col-md-8">
@@ -38,9 +42,11 @@ get_header(); ?>
       </div>
 
       <div class="single-next-post col-md-2">
-        <div class="next-post-link"><?php next_post_link( '%link', 'Next', TRUE ); ?></div>
-
-
+        <div class="next-post-link">
+          <?php next_post_link( '%link',
+           '<img src="' .get_bloginfo("template_directory")
+           . '/assets/graphics/front-arrow.svg" />', TRUE ); ?>
+         </div>
       </div>
 
     </div>
