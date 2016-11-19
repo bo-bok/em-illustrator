@@ -38,6 +38,17 @@ function wptp_add_categories_to_attachments() {
 }
 add_action( 'init' , 'wptp_add_categories_to_attachments' );
 
+function show_all_in_category($query) {
+  if ( !is_admin() && $query->is_main_query() ) {
+    if ($query->is_category()) {
+      $query->set('posts_per_page', -1);
+    }
+  }
+}
+
+add_action('pre_get_posts','show_all_in_category');
+
+
 
  // this function loads the style (css) files
 function em_theme_styles() {
