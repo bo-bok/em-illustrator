@@ -24,19 +24,20 @@ get_header(); ?>
               <!-- category thumbnails: 3 medium + screen , 2 small screen, 1 x-small screen -->
               <div class="table-cell-category">
 
-
+                <!-- <?php query_posts( 'cat=33' ); ?> -->
+                <!-- would show posts from specific category -->
 
                 <?php $query = new WP_Query( array(
                   'paged' => get_query_var( 'paged' ),
                   'posts_per_page'=> '-1',
-                  'orderby'=>'date'
+                  // 'orderby'=>'date'
                   ) );?>
+                  <!-- issue: shows all images from all categories in site -->
 
 
                 <!--  $args = array(
                   'posts_per_page'=>-1,
                   'orderby'=>'date'
-
                 );
                 $query = new WP_Query( $args ); -->
 
