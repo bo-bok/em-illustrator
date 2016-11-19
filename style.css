@@ -210,7 +210,7 @@ img {
 /* CATEGORY PAGE */
 /* ========================================================================= */
 .category-gallery-container {
-  border: solid red 1px;
+  /*border: solid red 1px;*/
   padding-top:10px;
   padding-bottom:10px;
   padding-right: 0;
