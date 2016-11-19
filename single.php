@@ -10,8 +10,7 @@ get_header(); ?>
 
       <div class="single-prev-post col-md-2">
         <div class="prev-post-link">
-          <?php prev_post_link( '%link',
-           '<img src="' .get_bloginfo("template_directory")
+          <?php previous_post_link( '%link', '<img src="' .get_bloginfo("template_directory")
            . '/assets/graphics/back-arrow.svg" />', TRUE ); ?>
          </div>
       </div>
