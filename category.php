@@ -24,7 +24,24 @@ get_header(); ?>
               <!-- category thumbnails: 3 medium + screen , 2 small screen, 1 x-small screen -->
               <div class="table-cell-category">
 
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+
+                <?php $query = new WP_Query( array(
+                  'paged' => get_query_var( 'paged' ),
+                  'posts_per_page'=> '-1',
+                  'orderby'=>'date'
+                  ) );?>
+
+
+                <!--  $args = array(
+                  'posts_per_page'=>-1,
+                  'orderby'=>'date'
+
+                );
+                $query = new WP_Query( $args ); -->
+
+                <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+                  <!-- displays every image from every category -->
 
                   <div class="category-page-thumbnail col-sm-6 col-md-4">
                     <a class="category-page-thumbnail-image" href="<?php the_permalink(); ?>">
