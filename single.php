@@ -9,7 +9,7 @@ get_header(); ?>
     <div class="test-container-1">
 
       <div class="single-prev-post col-md-2">
-        <div class=""><?php previous_post_link( ); ?></div>
+        <div class="prev-post-link"><?php previous_post_link( '%link', 'Previous', TRUE ); ?></div>
       </div>
 
       <div class="single-main-image-container col-md-8">
@@ -38,18 +38,21 @@ get_header(); ?>
       </div>
 
       <div class="single-next-post col-md-2">
-        <div class=""><?php next_post_link( ); ?></div>
+        <div class="next-post-link"><?php next_post_link( '%link', 'Next', TRUE ); ?></div>
+
+
       </div>
 
     </div>
   </section>
 
   <div class="row">
-    <div class="return-to-cat-page"
+    <div class="return-to-cat-page">
       <div class="cat">back to <?php the_category( ' ' ); ?></div>
       <!-- <li class="date ">on <?php the_time( 'F j, Y' ); ?></li> -->
     </div>
   </div>
+
 
 
 
