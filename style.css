@@ -52,6 +52,10 @@ img {
   max-width: 100%;
 }
 
+html {
+  background-color: #fff;
+}
+
 /* HEADER */
 /* ========================================================================= */
 /* LOGO */
@@ -145,6 +149,10 @@ img {
 }
 
 .footer-text {
+  text-align: center;
+}
+
+.footer-credit {
   text-align: center;
 }
 
@@ -315,6 +323,22 @@ img {
     margin-top: 0;
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+
+
+  /* FOOTER */
+  /* ================================================================= */
+  .footer {
+    border-top: 1px solid #eee;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  .footer-credit {
+    text-align: right;
   }
 
 

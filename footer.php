@@ -3,8 +3,12 @@
   <!-- ================================================================ -->
 
       <footer class="row footer">
-        <div class="col-12 footer-text">
+        <div class="col-md-6 footer-text">
           Copyright Emily McGovern <?php echo date('Y'); ?>.
+        </div>
+
+        <div class="col-md-6 footer-credit">
+          Made with <3 by <a href="https://github.com/bo-bok">Jessica Salmon</a>
         </div>
 
       </footer>
