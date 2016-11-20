@@ -16,7 +16,6 @@ get_header(); ?>
     <div class="category-gallery-container col-sm-12">
 
       <!-- display category images -->
-        <!-- <div class="table-container"> -->
           <div class="table-category">
 
             <div class="table-row-category">
@@ -41,7 +40,6 @@ get_header(); ?>
             </div>
 
           </div>
-        <!-- </div> -->
 
       </div>
   </div>
