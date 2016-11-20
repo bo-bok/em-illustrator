@@ -42,8 +42,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 #content {
   position: relative;
-
 }
+
 img {
   max-width: 100%;
 }
@@ -62,14 +62,11 @@ img {
 .em-header-logo {
   width: 100%;
   margin: auto;
-  /*height: auto !important;*/
-
 }
 
 .line-break-header {
   padding: 0;
 }
-
 
 
 /* SITE NAV */
@@ -86,7 +83,6 @@ img {
 .nav li {
   display: inline-block;
   width: 50%;
-  /*margin-right: 10px;*/
   font-family: 'Abadi MT Condensed Light', sans-serif;
   font-size: 2em;
   float: left;
@@ -98,37 +94,26 @@ img {
   clear: both;
 }
 
-
 .nav a {
   text-decoration: none;
   display: block;
-  /*padding: 10px 30px 0px 0px;*/
-  /*padding-top: 6px;
-  padding-right: 20px;
-  padding-left: 4px;*/
 }
 
 
 /* SOCIAL MEDIA ICONS/LINKS */
-
-
 .table-social-links {
  display: table;
  table-layout: fixed;
  width: 100%;
- /*background-color: red;*/
 }
 
 .table-row-social-links {
  display: table-row;
- /*background-color: green;*/
 }
 
 .table-cell-social-links {
  padding: 20px;
  display: table-cell;
- /*background-color: purple;*/
- /*border: grey solid 1px;*/
  padding: 5px;
  text-align: right;
 }
@@ -138,24 +123,15 @@ img {
   margin-right: 0px;
 }
 
-
 .social-links {
   padding: 0;
-  /*background-color: pink;*/
   margin-top: 10px;
-  /*text-align: center;*/
 }
 
 .soc-link-icon {
   height: 48px;
   width: 48px;
-  /*margin-left: 10px;*/
-  /*background-color: yellow;*/
-  /*border: red solid 1px;*/
   margin: auto;
-
-
-  /*margin: 10px;*/
 }
 
 
@@ -187,7 +163,6 @@ img {
 
 /* ABOUT PAGE */
 /* ========================================================================= */
-
 .about-container {
   margin: 0 -15px;
 }
@@ -195,10 +170,11 @@ img {
 .about-column {
   padding: 15px;
 }
+
+
 /* CATEGORY PAGE */
 /* ========================================================================= */
 .category-gallery-container {
-  /*border: solid red 1px;*/
   padding-top:10px;
   padding-bottom:10px;
   padding-right: 0;
@@ -207,7 +183,6 @@ img {
 
 .category-description {
   text-align: center;
-  /*font-size: 1em;*/
 }
 
 .thumbnail-category-container {
@@ -216,11 +191,9 @@ img {
 }
 
 .category-page-thumbnail {
-  /*float: left;*/
   padding:0;
   padding-bottom: 10px;
 }
-/* CHANGE TO GRID */
 
 .category-page-thumbnail-image img {
   width: 100%;
@@ -247,14 +220,11 @@ img {
   }
 
 
-
 /* SINGLE PAGE */
 /* ========================================================================= */
 .image-container-single {
   margin: auto;
   width: 100%;
-  /*margin-top: 50px;*/
-  /*for larger screens [move]*/
 }
 
 .single-image img {
@@ -280,6 +250,7 @@ img {
 .next-post-link {
   text-align: right;
 }
+
 
 /* MEDIA QUERIES */
 /* ========================================================================= */
