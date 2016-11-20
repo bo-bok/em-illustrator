@@ -25,7 +25,7 @@
           <div class="logo-container col-sm-12">
             <a href="<?php echo esc_url(home_url("/"))?>">
               <img class="em-header-logo"
-              src="<?= get_template_directory_uri()?>/assets/graphics/em-logo.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/></a>
+              src="<?= get_template_directory_uri()?>/assets/graphics/em-logo.png" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/></a>
           </div>
 
         <div class="line-break-header col-sm-12">
@@ -59,28 +59,28 @@
                   <a href="https://twitter.com/emilyscartoons" target="blank"
                     title="keywords-here">
                       <img class="soc-link-icon-img"
-                        src="<?= get_template_directory_uri() ?>/assets/graphics/twitter-icon.svg" /></a>
+                        src="<?= get_template_directory_uri() ?>/assets/graphics/twitter-icon.png" /></a>
                 </div>
 
                 <div class="social-link-icons">
                   <a href="https://en-gb.facebook.com/backgroundslytherin/" target="blank"
                     title="keywords-here">
                       <img class="soc-link-icon-img"
-                        src="<?= get_template_directory_uri() ?>/assets/graphics/fb-icon.svg" /></a>
+                        src="<?= get_template_directory_uri() ?>/assets/graphics/fb-icon.png" /></a>
                 </div>
 
                 <div class="social-link-icons">
                   <a href="http://emilyscartoons.tumblr.com/" target="blank"
                     title="keywords-here">
                       <img class="soc-link-icon-img"
-                      src="<?= get_template_directory_uri() ?>/assets/graphics/tumblr-icon.svg" /></a>
+                      src="<?= get_template_directory_uri() ?>/assets/graphics/tumblr-icon.png" /></a>
                 </div>
 
                 <div class="social-link-icons">
                   <a href="https://www.instagram.com/emilyscartoons/" target="blank"
                    title="keywords-here">
                     <img class="soc-link-icon-img"
-                      src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.svg" /></a>
+                      src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.png" /></a>
                 </div>
 
               </div>
