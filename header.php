@@ -15,6 +15,10 @@
 
 
   <body <?php body_class(); ?>>
+
+    <?php include_once("analyticstracking.php") ?>
+    <!-- call GA -->
+
     <div class="page-container">
 
 
