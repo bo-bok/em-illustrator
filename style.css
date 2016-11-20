@@ -15,9 +15,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* This stylesheet employs mobile first approach */
 /* ========================================================================= */
 
-.prev-post-link {}
-.next-post-link {}
-
 /* imports font */
 /* ========================================================================= */
 
@@ -43,6 +40,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin: auto;
 }
 
+#content {
+  position: relative;
+
+}
 img {
   max-width: 100%;
 }
@@ -204,8 +205,6 @@ img {
   padding-left: 0;
 }
 
-
-
 .category-description {
   text-align: center;
   /*font-size: 1em;*/
@@ -249,8 +248,6 @@ img {
 
 
 
-
-
 /* SINGLE PAGE */
 /* ========================================================================= */
 .image-container-single {
@@ -267,17 +264,11 @@ img {
 }
 
 .single-prev-post {
-  background-color: pink;
-  /*position: absolute;*/
-}
-
-.single-main-image-container {
-  background-color: green;
+  float:left;
 }
 
 .single-next-post {
-  background-color: orange;
-  /*position: absolute:*/
+  float: right;
 }
 
 .return-to-cat-page {
@@ -286,10 +277,8 @@ img {
   margin-top: 30px;
 }
 
-.test-container-1 {
-  border: 2px solid red;
-  /*min-height:1px;*/
-
+.next-post-link {
+  text-align: right;
 }
 
 /* MEDIA QUERIES */
@@ -425,7 +414,30 @@ img {
 
 
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
+
+
+  /* SINGLE PAGE */
+  /* ================================================================= */
+
+.single-image {
+  margin-top: 10px;
+}
+  .single-next-post,
+  .single-prev-post {
+    position: absolute;
+    float: none;
+    top: 30px;
+    display: inline-block;
+  }
+
+  .single-next-post {
+    right: 0;
+  }
+
+  .single-prev-post {
+    left: 0;
+  }
 
 }
 
