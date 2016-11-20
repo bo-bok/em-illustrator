@@ -40,7 +40,7 @@ get_header(); ?>
 
   <div class="row">
     <div class="return-to-cat-page">
-      <div class="cat">back to <?php the_category( ' ' ); ?></div>
+      <div class="cat">back to <?php the_category( ' '  ); ?></div>
     </div>
   </div>
 
