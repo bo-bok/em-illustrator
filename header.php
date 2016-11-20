@@ -4,13 +4,8 @@
 
   <head>
     <title><?php wp_title(); ?></title>
-    <!-- switches title text to wp_title() function. Enables WP to display
-         name of page it's on -->
 
     <?php wp_head(); ?>
-    <!-- tells wp that we're about to be at end of head tag
-          - if there's anything plugin or theme wants to output to this area,
-           this is where is should be done - e.g. your scripts!  -->
   </head>
 
 
@@ -60,7 +55,6 @@
 
               <div class="social-links-container">
 
-                <!-- Background Slytherin -->
                 <div class="social-link-icons">
                   <a href="https://twitter.com/emilyscartoons" target="blank"
                     title="keywords-here">
