@@ -4,17 +4,16 @@
 
   <head>
     <title><?php wp_title(); ?></title>
-    <!-- switches title text to wp_title() function. Enables WP to display
-         name of page it's on -->
 
     <?php wp_head(); ?>
-    <!-- tells wp that we're about to be at end of head tag
-          - if there's anything plugin or theme wants to output to this area,
-           this is where is should be done - e.g. your scripts!  -->
   </head>
 
 
   <body <?php body_class(); ?>>
+
+    <?php include_once("analyticstracking.php") ?>
+    <!-- call GA -->
+
     <div class="page-container">
 
 
@@ -54,45 +53,42 @@
         <!-- social media links -->
         <div class="social-links col-sm-7 col-md-5">
 
-            <div class="table-social-links">
+              <div class="social-links-container">
 
-              <div class="table-row-social-links">
-
-                <!-- Background Slytherin -->
-                <div class="table-cell-social-links">
+                <div class="social-link-icons">
                   <a href="https://twitter.com/emilyscartoons" target="blank"
                     title="keywords-here">
-                      <img class="soc-link-icon"
+                      <img class="soc-link-icon-img"
                         src="<?= get_template_directory_uri() ?>/assets/graphics/twitter-icon.svg" /></a>
                 </div>
 
-                <div class="table-cell-social-links">
+                <div class="social-link-icons">
                   <a href="https://en-gb.facebook.com/backgroundslytherin/" target="blank"
                     title="keywords-here">
-                      <img class="soc-link-icon"
+                      <img class="soc-link-icon-img"
                         src="<?= get_template_directory_uri() ?>/assets/graphics/fb-icon.svg" /></a>
                 </div>
 
-                <div class="table-cell-social-links">
+                <div class="social-link-icons">
                   <a href="http://emilyscartoons.tumblr.com/" target="blank"
                     title="keywords-here">
-                      <img class="soc-link-icon"
+                      <img class="soc-link-icon-img"
                       src="<?= get_template_directory_uri() ?>/assets/graphics/tumblr-icon.svg" /></a>
                 </div>
 
-                <div class="table-cell-social-links">
+                <div class="social-link-icons">
                   <a href="https://www.instagram.com/emilyscartoons/" target="blank"
                    title="keywords-here">
-                    <img class="soc-link-icon"
+                    <img class="soc-link-icon-img"
                       src="<?= get_template_directory_uri() ?>/assets/graphics/ig-icon.svg" /></a>
                 </div>
 
               </div>
-
-            </div>
 
           </div>
 
       </div>
 
     </header>
+
+<div id="content">

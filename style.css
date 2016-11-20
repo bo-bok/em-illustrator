@@ -15,14 +15,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* This stylesheet employs mobile first approach */
 /* ========================================================================= */
 
-
 /* imports font */
 /* ========================================================================= */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 
 /* WP CLASSES */
 /* ========================================================================= */
-
-.post {}
 
   /* any image in a post [fixes height]  */
 .posts-list .wp-post-image {
@@ -36,11 +35,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 * {
   color: #000;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 .page-container {
   width: 80%;
   margin: auto;
+}
+
+#content {
+  position: relative;
 }
 
 img {
@@ -61,14 +66,11 @@ img {
 .em-header-logo {
   width: 100%;
   margin: auto;
-  /*height: auto !important;*/
-
 }
 
 .line-break-header {
   padding: 0;
 }
-
 
 
 /* SITE NAV */
@@ -84,70 +86,55 @@ img {
 
 .nav li {
   display: inline-block;
-  margin-right: 10px;
-  font-family: 'Abadi MT Condensed Light', sans-serif;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 2em;
+  float: left;
+  text-transform: uppercase;
 }
 
+.nav:after {
+  display: table;
+  content: "";
+  clear: both;
+}
 
 .nav a {
   text-decoration: none;
   display: block;
-  padding: 10px 50px 0px 50px;
-  margin-bottom: 10px;  /*over ride */
-  /*padding-top: 6px;
-  padding-right: 20px;
-  padding-left: 4px;*/
 }
 
 
 /* SOCIAL MEDIA ICONS/LINKS */
 
-
-.table-social-links {
- display: table;
- table-layout: fixed;
- width: 100%;
- background-color: red;
-}
-
-.table-row-social-links {
- display: table-row;
- background-color: green;
-}
-
-.table-cell-social-links {
- padding: 20px;
- display: table-cell;
- background-color: purple;
- border: grey solid 1px;
- padding: 5px;
- text-align: right;
-}
-
-.table-cell-social-links:last-child {
-  padding-right: 0;
-  margin-right: 0px;
-}
-
-
 .social-links {
   padding: 0;
-  background-color: pink;
   margin-top: 10px;
-  /*text-align: center;*/
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
-.soc-link-icon {
+.social-links-container {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.social-link-icons {
+ padding: 20px;
+ padding: 5px;
+ align-items: space-between;
+ flex-grow: 1;
+}
+
+.social-link-icons:last-child {
+  padding-right: 0;
+  flex-grow: 0;
+}
+
+.soc-link-icon-img {
   height: 48px;
   width: 48px;
-  /*margin-left: 10px;*/
-  background-color: yellow;
-  border: red solid 1px;
-  margin: auto;
-
-
-  /*margin: 10px;*/
 }
 
 
@@ -179,49 +166,26 @@ img {
 
 /* ABOUT PAGE */
 /* ========================================================================= */
-.image-box-container {
-  /*border: 1px solid blue;*/
-  padding:0;
-  margin-top: 30px;
+.about-container {
+  margin: 0 -15px;
 }
 
-.left-box-about-image {
-  margin: auto;
-  }
-
-.about-portrait-image {
-  width: 100%;
-  height: auto !important;
-
-}
-
-.right-box-about-text {
-  padding-top: 10px;
-  width: 90%;
-  text-align: justify;
-  margin: auto;
-}
-
-.about-text p:first-child {
-  margin-top: 0;
+.about-column {
+  padding: 15px;
 }
 
 
 /* CATEGORY PAGE */
 /* ========================================================================= */
 .category-gallery-container {
-  border: solid red 1px;
   padding-top:10px;
   padding-bottom:10px;
   padding-right: 0;
   padding-left: 0;
 }
 
-
-
 .category-description {
   text-align: center;
-  /*font-size: 1em;*/
 }
 
 .thumbnail-category-container {
@@ -230,11 +194,9 @@ img {
 }
 
 .category-page-thumbnail {
-  /*float: left;*/
   padding:0;
   padding-bottom: 10px;
 }
-/* CHANGE TO GRID */
 
 .category-page-thumbnail-image img {
   width: 100%;
@@ -261,16 +223,11 @@ img {
   }
 
 
-
-
-
 /* SINGLE PAGE */
 /* ========================================================================= */
 .image-container-single {
   margin: auto;
   width: 100%;
-  /*margin-top: 50px;*/
-  /*for larger screens [move]*/
 }
 
 .single-image img {
@@ -280,35 +237,28 @@ img {
 }
 
 .single-prev-post {
-  background-color: pink;
-  /*position: absolute;*/
-}
-
-.single-main-image-container {
-  background-color: green;
+  float:left;
 }
 
 .single-next-post {
-  background-color: orange;
-  /*position: absolute:*/
+  float: right;
 }
 
 .return-to-cat-page {
-  background-color: teal;
+  background-color: white;
   padding: 10px;
   margin-top: 30px;
 }
 
-.test-container-1 {
-  border: 2px solid red;
-  /*min-height:1px;*/
-
+.next-post-link {
+  text-align: right;
 }
+
 
 /* MEDIA QUERIES */
 /* ========================================================================= */
 
-/* MEDUIM SCREEM SIZE [col-md] */
+/* MEDIUM SCREEM SIZE [col-md] */
 @media (min-width: 768px) {
 
   /* PAGE STRUCTURE */
@@ -337,7 +287,6 @@ img {
 
 
   /* SITE NAV */
-
   .nav-bar {
     padding: 0px 15px 10px 15px;
   }
@@ -349,28 +298,23 @@ img {
   }
 
   .nav li {
-    /* could display as block but strange minimizing behavior*/
+    /*width: auto;*/
+    padding-right: 20px;
+    padding-top: 13px;
+    width: 50%;
+
   }
 
   .nav a {
-    /*width: 50%;*/
     padding: 0;
-
   }
-
-
-
 
 
   /* SOCIAL MEDIA ICONS/LINKS */
-
   .social-links {
     margin-top: 0;
-    /*text-align: center;*/
-  }
-
-  .soc-link-icon {
-    /*float: right;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
 
@@ -404,107 +348,57 @@ img {
   }
 
 
-
   /* ABOUT PAGE */
   /* ================================================================= */
-  .image-box-container {
-    margin-top: 0;
-  }
-
-  .left-box-about-image {
-    margin: auto;
-    }
-
-  .right-box-about-text {
-    padding-top: 0;
-    padding-right: 0;
-    text-align: justify;
-    vertical-align: middle;
-
-  }
-
-  .about-text {
+  .about-container {
+    display: table;
+    table-layout: fixed;
     width: 100%;
   }
 
-  .about-table{
-    background-color: pink;
-    margin-right: 0;
-  }
-
-  .about-table-row {
-    display: table-row;
-    background-color: orange;
-  }
-
-  .about-table-cell {
+  .about-column {
     display: table-cell;
-    background-color: yellow;
-    /*vertical-align: top;*/
-    border: solid blue 1px;
+    vertical-align: middle;
+    width: 50%;
   }
 
-/* CATEGORY PAGE */
-/* ================================================================= */
-.category-gallery-container {
-  padding-right:5px;
-  padding-left:5px;
-}
+  /* CATEGORY PAGE */
+  /* ================================================================= */
+  .category-gallery-container {
+    padding-right:5px;
+    padding-left:5px;
+  }
 
-.category-page-thumbnail {
-  /*float: left;*/
-  padding: 10px;
-}
-
-@media (min-width: 1000px) {
+  .category-page-thumbnail {
+    padding: 10px;
+  }
 
 }
 
 
 
+@media (min-width: 992px) {
 
+  /* SINGLE PAGE */
+  /* ================================================================= */
 
+  .single-image {
+    margin-top: 10px;
+  }
+    .single-next-post,
+    .single-prev-post {
+      position: absolute;
+      float: none;
+      top: 30px;
+      display: inline-block;
+    }
 
+    .single-next-post {
+      right: 0;
+    }
 
+    .single-prev-post {
+      left: 0;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ================================================================= */
-/* DEV DIV STYLES */
-/* ================================================================= */
-/*.page-container {
-  border: 4px dotted grey;
-  background-color: #eeeeee;
 }
-
-
-[class*="col-"] {
-  border: 1px solid red;
-}
-
-.nav li {
-  background-color: yellow;
-}
-
-.logo-container {
-  background-color: pink;
-}
-
-.table-row {
-  background-color: pink;
-}
-
-.table-cell {
-  border: 1px solid black;
-} */

@@ -8,7 +8,7 @@ get_header(); ?>
     <p>this is coming from attachment.php</p>
   <p><?php the_content(); ?></p>
 
-<?php endwhile; endif; ?
+<?php endwhile; endif; ?>
 
 <?php next_posts_link(); ?>
 <?php previous_posts_link(); ?>
