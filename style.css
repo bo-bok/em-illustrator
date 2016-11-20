@@ -17,6 +17,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* imports font */
 /* ========================================================================= */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 
 /* WP CLASSES */
 /* ========================================================================= */
@@ -33,6 +35,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 * {
   color: #000;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 .page-container {
@@ -83,9 +87,11 @@ img {
 .nav li {
   display: inline-block;
   width: 50%;
-  font-family: 'Abadi MT Condensed Light', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 2em;
   float: left;
+  text-transform: uppercase;
 }
 
 .nav:after {
@@ -105,6 +111,8 @@ img {
 .social-links {
   padding: 0;
   margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 .social-links-container {
@@ -305,6 +313,8 @@ img {
   /* SOCIAL MEDIA ICONS/LINKS */
   .social-links {
     margin-top: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
 

@@ -47,7 +47,7 @@ get_header(); ?>
           <!-- Cards & Comics -->
           <div class="table-cell">
             <?php
-              $category_id = get_cat_ID( 'Cards and Comics' );
+              $category_id = get_cat_ID( 'Cards + Comics' );
               $category_link = get_category_link( $category_id );
             ?>
 
