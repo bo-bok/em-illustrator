@@ -2,9 +2,7 @@
 
 // add theme support for menus:
 add_theme_support( 'menus' );
-
-
-// add theme support for post-thumbnails
+add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' );
 
 // set custom image sizes
