@@ -22,8 +22,7 @@ get_header(); ?>
       <p>She graduated with a First from University College London in 2014, and now
       works full-time in an office and draws in her spare time. </p>
 
-      <p>In 2016 Emily’s comic
-      <a href="/index.php?p=123">'Bloodlust &amp; Bonnets’</a> was shortlisted for the prestigious
+      <p>In 2016 Emily’s comic 'Bloodlust &amp; Bonnets' was shortlisted for the prestigious
       Observer/Jonathan Cape Graphic Short Story Prize.</p>
 
       <p>If you&#39;d like to buy a print or card, get in touch at:
