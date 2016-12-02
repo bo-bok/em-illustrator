@@ -8,7 +8,7 @@
         </div>
 
         <div class="col-md-6 footer-credit">
-          Made with <3 by <a href="https://github.com/bo-bok">Jessica Salmon</a>
+          Made with <3 by <a href="https://uk.linkedin.com/in/jessicasalmon10">Jessica Salmon</a>
         </div>
 
       </footer>
