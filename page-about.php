@@ -25,7 +25,7 @@ get_header(); ?>
       <p>In 2016 Emily’s comic 'Bloodlust &amp; Bonnets' was shortlisted for the prestigious
       Observer/Jonathan Cape Graphic Short Story Prize.</p>
 
-      <p>If you&#39;d like to buy a print or card, get in touch at:
+      <p>Get in touch at:
         <a href="mailto:info@emilymcgovern.com">info@emilymcgovern.com</a>
       </p>
 
