@@ -1,24 +1,29 @@
 
 
-test-row {
+.test-row {
   background-color: pink;
 }
 
-test-col {
+.test-col {
   background-color: red;
 }
 
 .shop-table {
   display: table;
+  border: 1px solid black;
 }
 
-  .shop-table-row{
-    display: table-row;
-  }
-    .shop-table-cell{
-      display: table-cell;
-      width: 100%;
-    }
+.shop-table-row{
+  display: table-row;
+  background: orange;
+  clear: right;
+}
+
+.shop-table-cell{
+  display: table-cell;
+  width: 100%;
+  background: yellow;
+}
 
 
 
