@@ -5,17 +5,33 @@
 
 get_header(); ?>
 
+<div class="row test-row">
+  <div class="col-xs-sm">
+    Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui.
+  </div>
+</div>
 
-<div class="table">
+<div class="row test-row">
+  <div class="col-xs-12 col-md-6 test-col">
+    <div class="shop-table">
+      <div class="shop-table-row">
+        <div class="shop-table-cell">
+          <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/4-illustrations-600x600px.png" />
 
-  <div class="table-row">
-    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="table-row">
-    <div id="shop-1"></div>
-    <div id="shop-2"></div>
-  </div>
+  <div class="col-xs-12 col-md-6 test-col">
+    <div class="shop-table">
+      <div class="shop-table-row">
+        <div class="shop-table-cell">
+          <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/3-cards-comics-600x600px.png" />
+
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>
