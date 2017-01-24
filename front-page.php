@@ -56,14 +56,10 @@ get_header(); ?>
             </a>
           </div>
 
-          <!-- Illustrations -->
+          <!-- Patreon/ Bloodlust -->
           <div class="table-cell">
-            <?php
-              $category_id = get_cat_ID( 'Illustrations' );
-              $category_link = get_category_link( $category_id );
-            ?>
 
-            <a href="<?php echo esc_url( $category_link ); ?>" title="Cards and Comics">
+            <a href="<?php echo get_page_link( get_page_by_title( Patreon )->ID ); ?>">
               <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/4-illustrations-600x600px.png" />
             </a>
           </div>
