@@ -1,5 +1,5 @@
 
-
+/* Blurb - top of page */
 .shop-blurb-container {
   /*background-color: pink;*/
   text-align: center;
@@ -13,26 +13,24 @@
   font-size: 1.2em;
 }
 
-.test-col {
-  /*background-color: red;*/
-}
 
-.shop-table {
+/* containing structure for shop info */
+.shop-info-container {
   display: table;
   /*border: 1px solid black;*/
+  text-align: center;
 }
 
-.shop-table-row{
+.shop-info-row{
   display: table-row;
   background: orange;
   clear: right;
 }
 
-.shop-table-cell{
+.shop-info-cell{
   display: table-cell;
   width: 100%;
   background: yellow;
-  text-align: center;
 }
 
 
