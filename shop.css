@@ -23,15 +23,34 @@
 
 .shop-info-row{
   display: table-row;
-  background: orange;
+  /*background: orange;*/
   clear: right;
 }
 
 .shop-info-cell{
   display: table-cell;
   width: 100%;
-  background: yellow;
+  /*background: yellow;*/
+  font-size: 1.2em;
 }
+
+.shop-info-text {
+  width: 90%;
+  margin: auto;
+}
+
+/* image formatting (same as homepage-image in style.css) */
+.shop-page-image {
+  width: 100%;
+  margin-bottom: 0.6em;
+  margin-top: 0.6em;
+}
+
+.shop-page-image {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 
 
 
