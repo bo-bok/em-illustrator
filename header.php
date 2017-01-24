@@ -5,6 +5,13 @@
   <head>
     <title><?php wp_title(); ?></title>
 
+    <!-- fb og sharing -->
+    <meta property="og:url"             content="http://emilymcgovern.com/" />
+    <meta property="og:title"           content="Emily McGovern" />
+    <meta property="og:description"     content="Emily's Description Here" />
+    <meta property="og:image"           content="Emily's image here" />
+    <meta property="fb:app_id"          content="Facebook Domain Insights: Find the app ID in your App Dashboard." />  
+
     <?php wp_head(); ?>
   </head>
 
