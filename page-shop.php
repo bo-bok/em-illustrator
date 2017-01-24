@@ -5,14 +5,22 @@
 
 get_header(); ?>
 
-<div class="row test-row">
+<div class="row shop-blurb-container">
   <div class="col-xs-sm">
+
+    <div class="shop-blurb-header">
+      Justo Nullam Tortor Nibh
+    </div>
+
+    <div class="shop-blurb-text">
     Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui.
+    </div>
+
   </div>
 </div>
 
-<div class="row test-row">
-  <div class="col-xs-12 col-md-6 test-col">
+<div class="row">
+  <div class="col-xs-12 col-md-6">
     <div class="shop-table">
 
       <div class="shop-table-row">
@@ -30,7 +38,7 @@ get_header(); ?>
     </div>
   </div>
 
-  <div class="col-xs-12 col-md-6 test-col">
+  <div class="col-xs-12 col-md-6">
     <div class="shop-table">
 
       <div class="shop-table-row">
