@@ -17,7 +17,7 @@ get_header(); ?>
 
       <div class="shop-table-row">
         <div class="shop-table-cell">
-          <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/4-illustrations-600x600px.png" />
+          <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/shop-page-images/shop-etsy.jpg" />
         </div>
       </div>
 
@@ -35,7 +35,7 @@ get_header(); ?>
 
       <div class="shop-table-row">
         <div class="shop-table-cell">
-          <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/3-cards-comics-600x600px.png" />
+          <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/shop-page-images/shop-soc6.jpg" />
         </div>
       </div>
 
