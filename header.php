@@ -7,10 +7,10 @@
 
     <!-- fb og sharing -->
     <meta property="og:url"             content="http://emilymcgovern.com/" />
-    <meta property="og:title"           content="Emily McGovern" />
-    <meta property="og:description"     content="Emily's Description Here" />
-    <meta property="og:image"           content="Emily's image here" />
-    <meta property="fb:app_id"          content="Facebook Domain Insights: Find the app ID in your App Dashboard." />  
+    <meta property="og:title"           content="Official website of Emily’s Cartoons" />
+    <meta property="og:description"     content="Home of comics including Background Slytherin, Bloodlust &amp; Bonnets and more." />
+    <meta property="og:image"           content="/assets/fb-og-sharing-img.png" />
+    <!-- <meta property="fb:app_id"          content="Facebook Domain Insights: Find the app ID in your App Dashboard." /> -->
 
     <?php wp_head(); ?>
   </head>
