@@ -9,11 +9,11 @@ get_header(); ?>
   <div class="col-xs-sm">
 
     <div class="shop-blurb-header">
-      Justo Nullam Tortor Nibh
+      Why two separate shops?
     </div>
 
     <div class="shop-blurb-text">
-    Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui.
+      I run my Easy print shop personally - packaging &amp; posting the items myself. Society6 is a website that provides made-to-order items that I don’t have the resources to make right now, such as mugs, t-shirts and phone cases (but they take a bigger cut of the profits). So choose a shop based on what you are looking for!
     </div>
 
   </div>
@@ -36,9 +36,10 @@ get_header(); ?>
       <div class="shop-info-row">
         <div class="shop-info-cell">
           <div class="shop-info-text">
-            <p> - Fusce &amp; dapibus, tellus-accursus commodo, tortor mauris </p>
-            <p> - Pellentesque, Mattis Sit </p>
-            <p> - Integer posuere erat a ante venenatis dapibus posuere </p>
+            <p> - High quality signed &amp; numbered A4 prints and greeting cards </p>
+            <p> - Handmade cards </p>
+            <p> - Each package includes a handwritten, personalised thank you note from me! </p>
+            <p> - COMING SOON: Commissions! You can ask me to draw a personalised card or picture </p>
           </div>
         </div>
       </div>
@@ -61,8 +62,12 @@ get_header(); ?>
       <div class="shop-info-row">
         <div class="shop-info-cell">
           <div class="shop-info-text">
-            <p> - Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. </p>
-            <p> - Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit </p>
+            <p> - Wide variety of items including mugs, t-shirts, notebooks and more </p>
+            <p> - Wide variety of items including mugs, t-shirts, notebooks and more </p>
+            <p> - Several different designs available for all items </p>
+            <p> - But - items are not made or sent by me, so no personalised or signed items here</p>
+
+
           </div>
         </div>
       </div>
