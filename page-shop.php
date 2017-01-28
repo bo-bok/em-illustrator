@@ -25,9 +25,13 @@ get_header(); ?>
 
       <div class="shop-info-row">
         <div class="shop-info-cell">
-          <img class="shop-page-image" src="<?= get_template_directory_uri()?>/assets/shop-page-images/shop-etsy.jpg" />
+
+          <a href="https://www.etsy.com/uk/shop/emilyscartoons" target="blank">
+            <img class="shop-page-image" src="<?= get_template_directory_uri()?>/assets/shop-page-images/shop-etsy.jpg" /></a>
+
         </div>
       </div>
+
 
       <div class="shop-info-row">
         <div class="shop-info-cell">
@@ -47,7 +51,10 @@ get_header(); ?>
 
       <div class="shop-info-row">
         <div class="shop-info-cell">
-          <img class="shop-page-image" src="<?= get_template_directory_uri()?>/assets/shop-page-images/shop-soc6.jpg" />
+
+          <a href="https://society6.com/emilyscartoons" target="blank">
+            <img class="shop-page-image" src="<?= get_template_directory_uri()?>/assets/shop-page-images/shop-soc6.jpg" /></a>
+
         </div>
       </div>
 
