@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+@media(min-width: 755px) {
+  .shop-blurb-container {
+    margin-top: 50px;
+  }
+}
+
 .shop-blurb-header {
   font-size: 2.4em;
 }
