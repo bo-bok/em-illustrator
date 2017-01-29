@@ -5,6 +5,14 @@
   <head>
     <title><?php wp_title(); ?></title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fb og sharing -->
+    <meta property="og:url"             content="http://emilymcgovern.com/" />
+    <meta property="og:title"           content="Official website of Emily’s Cartoons" />
+    <meta property="og:description"     content="Home of comics including Background Slytherin, Bloodlust &amp; Bonnets and more." />
+    <meta property="og:image"           content="/assets/fb-og-sharing-img.png" />
+
     <?php wp_head(); ?>
   </head>
 
