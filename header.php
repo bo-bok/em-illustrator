@@ -5,6 +5,8 @@
   <head>
     <title><?php wp_title(); ?></title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- fb og sharing -->
     <meta property="og:url"             content="http://emilymcgovern.com/" />
     <meta property="og:title"           content="Official website of Emily’s Cartoons" />
