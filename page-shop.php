@@ -64,8 +64,6 @@ get_header(); ?>
             <p> - Wider variety of items including mugs, t-shirts, notebooks </p>
             <p> - Several different designs available </p>
             <p> - But, items are not made or sent by me, so no personalised or signed items here</p>
-
-
           </div>
         </div>
       </div>
