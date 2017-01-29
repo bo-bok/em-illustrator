@@ -1,7 +1,6 @@
 
 /* Blurb - top of page */
 .shop-blurb-container {
-  /*background-color: pink;*/
   text-align: center;
 }
 
@@ -26,22 +25,18 @@
 /* containing structure for shop info */
 .shop-info-container {
   display: table;
-  /*border: 1px solid black;*/
   text-align: center;
 }
 
 .shop-info-row{
   display: table-row;
-  /*background: orange;*/
   clear: right;
 }
 
 .shop-info-cell{
   display: table-cell;
   width: 100%;
-  /*background: yellow;*/
   font-size: 1.2em;
-  /*text-align: left;*/
 }
 
 .shop-info-text {
