@@ -12,7 +12,6 @@
     <meta property="og:title"           content="Official website of Emily’s Cartoons" />
     <meta property="og:description"     content="Home of comics including Background Slytherin, Bloodlust &amp; Bonnets and more." />
     <meta property="og:image"           content="/assets/fb-og-sharing-img.png" />
-    <!-- <meta property="fb:app_id"          content="Facebook Domain Insights: Find the app ID in your App Dashboard." /> -->
 
     <?php wp_head(); ?>
   </head>
