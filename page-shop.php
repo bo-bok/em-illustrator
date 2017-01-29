@@ -63,7 +63,6 @@ get_header(); ?>
         <div class="shop-info-cell">
           <div class="shop-info-text">
             <p> - Wide variety of items including mugs, t-shirts, notebooks and more </p>
-            <p> - Wide variety of items including mugs, t-shirts, notebooks and more </p>
             <p> - Several different designs available for all items </p>
             <p> - But - items are not made or sent by me, so no personalised or signed items here</p>
 
