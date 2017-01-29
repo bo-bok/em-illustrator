@@ -11,7 +11,7 @@
     <meta property="og:url"             content="http://emilymcgovern.com/" />
     <meta property="og:title"           content="Official website of Emily’s Cartoons" />
     <meta property="og:description"     content="Home of comics including Background Slytherin, Bloodlust &amp; Bonnets and more." />
-    <meta property="og:image"           content="/assets/fb-og-sharing-img.png" />
+    <meta property="og:image:type"           content="/assets/fb-og-sharing-img.png" />
 
     <?php wp_head(); ?>
   </head>
