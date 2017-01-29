@@ -144,14 +144,18 @@ html {
 /* ========================================================================= */
 .footer {
   border-top: 1px solid #eee;
+  font-size: 0.9em;
+  font-weight: 300;
 }
 
-.footer-text {
-  text-align: center;
-}
-
+.footer-text,
 .footer-credit {
   text-align: center;
+}
+
+.footer-credit a {
+  text-decoration: none;
+
 }
 
 
