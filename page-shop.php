@@ -13,7 +13,7 @@ get_header(); ?>
     </div>
 
     <div class="shop-blurb-text">
-      I run my Easy print shop personally - packaging &amp; posting the items myself. Society6 is a website that provides made-to-order items that I don’t have the resources to make right now, such as mugs, t-shirts and phone cases (but they take a bigger cut of the profits). So choose a shop based on what you are looking for!
+      I run my Etsy print shop personally - packaging &amp; posting the items myself. Society6 is a website that provides made-to-order items that I don’t have the resources to make right now, such as mugs, t-shirts and phone cases (but they take a bigger cut of the profits). So choose a shop based on what you are looking for!
     </div>
 
   </div>
