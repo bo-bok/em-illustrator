@@ -39,7 +39,6 @@ get_header(); ?>
             <p> - High quality signed &amp; numbered A4 prints and greeting cards </p>
             <p> - Handmade cards </p>
             <p> - Each package includes a handwritten, personalised thank you note from me! </p>
-            <p> - COMING SOON: Commissions! You can ask me to draw a personalised card or picture </p>
           </div>
         </div>
       </div>
@@ -62,9 +61,9 @@ get_header(); ?>
       <div class="shop-info-row">
         <div class="shop-info-cell">
           <div class="shop-info-text">
-            <p> - Wide variety of items including mugs, t-shirts, notebooks and more </p>
-            <p> - Several different designs available for all items </p>
-            <p> - But - items are not made or sent by me, so no personalised or signed items here</p>
+            <p> - Wider variety of items including mugs, t-shirts, notebooks </p>
+            <p> - Several different designs available </p>
+            <p> - But, items are not made or sent by me, so no personalised or signed items here</p>
 
 
           </div>
