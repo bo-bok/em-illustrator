@@ -24,7 +24,30 @@ get_header(); ?>
 
             <!-- Print a link to this category -->
             <a href="<?php echo esc_url( $category_link ); ?>" title="My Life As a Background Slytherin">
-              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/1-slytherin-600x600px.png" />
+              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/1-background-slytherin-600x600.png" />
+            </a>
+          </div>
+
+          <!-- Bloodlust and Bonnets-->
+          <div class="table-cell">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Bloodlust and Bonnets' )->ID ); ?>">
+              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/2-bloodlust-and-bonnets-600x600.png" />
+            </a>
+          </div>
+
+        </div>
+
+        <div class="table-row">
+
+          <!-- Comics -->
+          <div class="table-cell">
+            <?php
+              $category_id = get_cat_ID( 'Comics' );
+              $category_link = get_category_link( $category_id );
+            ?>
+
+            <a href="<?php echo esc_url( $category_link ); ?>" title="Comics">
+              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/3-comics-600x600.png" />
             </a>
           </div>
 
@@ -36,35 +59,7 @@ get_header(); ?>
             ?>
 
             <a href="<?php echo esc_url( $category_link ); ?>" title="Published Work">
-              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/2-published-work-600x600px.png" />
-            </a>
-          </div>
-
-        </div>
-
-        <div class="table-row">
-
-          <!-- Cards & Comics -->
-          <div class="table-cell">
-            <?php
-              $category_id = get_cat_ID( 'Cards + Comics' );
-              $category_link = get_category_link( $category_id );
-            ?>
-
-            <a href="<?php echo esc_url( $category_link ); ?>" title="Cards and Comics">
-              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/3-cards-comics-600x600px.png" />
-            </a>
-          </div>
-
-          <!-- Illustrations -->
-          <div class="table-cell">
-            <?php
-              $category_id = get_cat_ID( 'Illustrations' );
-              $category_link = get_category_link( $category_id );
-            ?>
-
-            <a href="<?php echo esc_url( $category_link ); ?>" title="Cards and Comics">
-              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/4-illustrations-600x600px.png" />
+              <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/4-published-work-600x600.png" />
             </a>
           </div>
 

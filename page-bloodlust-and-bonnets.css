@@ -1,0 +1,33 @@
+.BB-title {
+  text-align: center;
+}
+
+.BB-title-text {
+  margin: 32px 0 0 0;
+}
+
+.BB-description {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.BB-img {
+  margin: auto;
+  display: block;
+}
+
+.webtoons-link-container {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.webtoons-link {
+  text-decoration: none;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+}
+
+.webtoons-link:hover {
+  text-decoration: underline;
+}
