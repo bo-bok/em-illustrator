@@ -8,6 +8,7 @@
 
 .BB-description {
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .BB-img {
@@ -23,7 +24,7 @@
 
 .webtoons-link {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: 0.1em;
 }
 
