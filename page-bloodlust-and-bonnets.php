@@ -5,6 +5,13 @@
 
 get_header(); ?>
 
+<div class="BB-title row">
+  <div class="col-xs-12">
+    <h1 class="BB-title-text"><?php wp_title('', true,''); ?></h1>
+  </div>
+</div>
+
+
 <div class="BB-description row">
   <div class="col-xs-12">
     Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla.
