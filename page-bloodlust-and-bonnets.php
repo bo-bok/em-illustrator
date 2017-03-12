@@ -13,7 +13,7 @@ get_header(); ?>
 
 <div class="BB-comic-full row">
   <div class="col-xs-12">
-    <img src="<?= get_template_directory_uri()?>/assets/bloodlust/bloodlustAndBonnets-full-1000px.jpg" />
+      <img class="BB-img" src="<?= get_template_directory_uri()?>/assets/bloodlust/bloodlustAndBonnets-full-1000px.jpg" />
   </div>
 </div>
 
