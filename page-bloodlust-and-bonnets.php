@@ -1,6 +1,6 @@
 <?php
   /*
-    Template Name: Patreon Page
+    Template Name: Bloodlust and Bonnets Page
   */
 
 get_header(); ?>
