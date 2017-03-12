@@ -56,10 +56,10 @@ get_header(); ?>
             </a>
           </div>
 
-          <!-- Patreon/ Bloodlust -->
+          <!-- Bloodlust and Bonnets-->
           <div class="table-cell">
 
-            <a href="<?php echo get_page_link( get_page_by_title( Patreon )->ID ); ?>">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Bloodlust and Bonnets' )->ID ); ?>">
               <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/4-illustrations-600x600px.png" />
             </a>
           </div>
