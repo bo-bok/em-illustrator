@@ -2,7 +2,7 @@
 Theme Name: Emily McGovern Illustrations
 Author: Jessica Salmon [ https://github.com/bo-bok & https://uk.linkedin.com/in/jessicasalmon10 ]
 Description: A special website for an especially talented illustrator.
-Version: 0.3
+Version: v.0.4.3.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, white, light, one-column, two-columns, flexible-width, fluid-layout, responsive-layout, custom-menu, featured-images
@@ -31,7 +31,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* PAGE STRUCTURE */
 /* initial structure is one column layout spanning 100% width */
 /* ========================================================================= */
-
 * {
   color: #000;
   box-sizing: border-box;
@@ -145,14 +144,18 @@ html {
 /* ========================================================================= */
 .footer {
   border-top: 1px solid #eee;
+  font-size: 0.9em;
+  font-weight: 300;
 }
 
-.footer-text {
-  text-align: center;
-}
-
+.footer-text,
 .footer-credit {
   text-align: center;
+}
+
+.footer-credit a {
+  text-decoration: none;
+
 }
 
 

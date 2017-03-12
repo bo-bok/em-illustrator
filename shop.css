@@ -1,0 +1,58 @@
+
+/* Blurb - top of page */
+.shop-blurb-container {
+  text-align: center;
+}
+
+@media(min-width: 755px) {
+  .shop-blurb-container {
+    margin-top: 50px;
+  }
+}
+
+.shop-blurb-header {
+  font-size: 2.4em;
+}
+
+.shop-blurb-text {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+}
+
+
+/* containing structure for shop info */
+.shop-info-container {
+  display: table;
+  text-align: center;
+}
+
+.shop-info-row{
+  display: table-row;
+  clear: right;
+}
+
+.shop-info-cell{
+  display: table-cell;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.shop-info-text {
+  width: 100%;
+  margin: auto;
+  line-height: 1.3em;
+}
+
+/* image formatting (same as homepage-image in style.css) */
+.shop-page-image {
+  width: 100%;
+  margin-bottom: 0.6em;
+  margin-top: 0.6em;
+}
+
+.shop-page-image {
+  margin-bottom: 0;
+  margin-top: 0;
+}

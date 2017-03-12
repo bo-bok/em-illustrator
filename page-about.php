@@ -3,7 +3,6 @@
     Template Name: About Page
   */
 
-// the page template. used when an individual page is queried.
 get_header(); ?>
 
   <div class="about-container">
