@@ -47,11 +47,11 @@ get_header(); ?>
           <!-- Cards & Comics -->
           <div class="table-cell">
             <?php
-              $category_id = get_cat_ID( 'Cards + Comics' );
+              $category_id = get_cat_ID( 'Comics' );
               $category_link = get_category_link( $category_id );
             ?>
 
-            <a href="<?php echo esc_url( $category_link ); ?>" title="Cards and Comics">
+            <a href="<?php echo esc_url( $category_link ); ?>" title="Comics">
               <img class="homepage-image" src="<?= get_template_directory_uri()?>/assets/homepage-images/3-comics-600x600.png" />
             </a>
           </div>
