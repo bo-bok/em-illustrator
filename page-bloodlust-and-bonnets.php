@@ -17,4 +17,10 @@ get_header(); ?>
   </div>
 </div>
 
+<div class="webtoons-link-container row">
+  <div class="col-xs-12">
+    <a class="webtoons-link" href="http://www.webtoons.com/en/challenge/bloodlust-bonnets/list?title_no=66172">To read the next chapter click here . . .</a>
+  </div>
+</div>
+
 <?php get_footer(); ?>

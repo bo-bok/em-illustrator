@@ -14,3 +14,19 @@ body {
   margin: auto;
   display: block;
 }
+
+.webtoons-link-container {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.webtoons-link {
+  text-decoration: none;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+.webtoons-link:hover {
+  text-decoration: underline;
+}
