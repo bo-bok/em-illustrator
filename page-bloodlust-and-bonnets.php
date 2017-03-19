@@ -14,7 +14,7 @@ get_header(); ?>
 
 <div class="BB-description row">
   <div class="col-xs-12">
-    Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla.
+    I originally wrote Bloodlust &amp; Bonnets in 2015 as a self-contained short story. In 2016 it was nominated for the Jonathan Cape/Graphica Short Story prize, and I’m now developing it into a webcomic series hosted on Webtoons and my Tumblr blog.
   </div>
 </div>
 
