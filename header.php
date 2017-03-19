@@ -42,6 +42,7 @@
       </div>
 
 
+
       <!-- navigation & social links row-->
       <div class="nav-bar row">
 
@@ -50,7 +51,7 @@
           $defaults = array(
             'container' => false,
             'theme_location' => 'primary-menu', //tells wp where menu lives
-            'menu_class' => 'nav col-sm-5 col-md-7'
+            'menu_class' => 'nav col-xs-12 col-sm-7 col-md-8'
           );
 
           wp_nav_menu( $defaults );
@@ -58,7 +59,7 @@
 
 
         <!-- social media links -->
-        <div class="social-links col-sm-7 col-md-5">
+        <div class="social-links col-xs-12 col-sm-5 col-md-4">
 
               <div class="social-links-container">
 

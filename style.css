@@ -55,6 +55,10 @@ html {
   background-color: #fff;
 }
 
+body {
+  min-width: 320px;
+}
+
 /* HEADER */
 /* ========================================================================= */
 /* LOGO */
@@ -89,10 +93,11 @@ html {
 
 .nav li {
   display: inline-block;
-  width: 50%;
+  width: 100%;
+  padding: 0.3em 0 0.3em 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.8em;
   float: left;
   text-transform: uppercase;
 }
@@ -115,12 +120,18 @@ html {
   padding: 0;
   margin-top: 10px;
   padding-top: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 1em;
 }
 
 .social-links-container {
  display: flex;
  justify-content: flex-end;
+}
+
+@media(min-width: 768px) {
+  .social-links-container {
+    margin-left: 1em;
+  }
 }
 
 .social-link-icons {
@@ -137,6 +148,12 @@ html {
 
 .soc-link-icon-img {
   height: 48px;
+}
+
+@media(min-width: 922px) {
+  .soc-link-icon-img {
+    height: 40px;
+  }
 }
 
 
@@ -283,6 +300,30 @@ html {
 
 }
 
+
+@media(min-width: 768px) {
+  .nav li {
+    width: 33.3%;
+  }
+
+  /* SITE NAV */
+
+  .nav {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .nav li {
+    padding-right: 20px;
+    padding-top: 13px;
+  }
+
+  .nav a {
+    padding: 0;
+  }
+}
+
 /* MEDIUM SCREEM SIZE [col-md] */
 @media (min-width: 992px) {
 
@@ -314,23 +355,6 @@ html {
   /* SITE NAV */
   .nav-bar {
     padding: 0px 15px 10px 15px;
-  }
-
-  .nav {
-    text-align: left;
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  .nav li {
-    padding-right: 20px;
-    padding-top: 13px;
-    width: 50%;
-
-  }
-
-  .nav a {
-    padding: 0;
   }
 
   /* FOOTER */
